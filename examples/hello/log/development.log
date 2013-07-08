@@ -1,0 +1,1843 @@
+[Mon Jul  8 16:19:07 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:19:11 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:19:11 2013] [debug] GET "/".
+[Mon Jul  8 16:19:11 2013] [debug] Routing to controller "Hello::Example" and action "welcome".
+[Mon Jul  8 16:19:11 2013] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul  8 16:19:11 2013] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul  8 16:19:11 2013] [debug] 200 OK (0.011685s, 85.580/s).
+[Mon Jul  8 16:19:15 2013] [debug] GET "/routes".
+[Mon Jul  8 16:19:15 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 16:19:15 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 16:19:15 2013] [debug] Rendering inline template.
+[Mon Jul  8 16:19:15 2013] [debug] Rendering inline template.
+[Mon Jul  8 16:19:15 2013] [debug] 404 Not Found (0.016701s, 59.877/s).
+[Mon Jul  8 16:20:07 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:20:22 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:20:22 2013] [debug] GET "/".
+[Mon Jul  8 16:20:22 2013] [debug] Routing to controller "Hello::Example" and action "welcome".
+[Mon Jul  8 16:20:22 2013] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul  8 16:20:22 2013] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul  8 16:20:22 2013] [debug] 200 OK (0.013536s, 73.877/s).
+[Mon Jul  8 16:22:22 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:27:37 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:27:53 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:27:53 2013] [debug] GET "/".
+[Mon Jul  8 16:27:53 2013] [debug] Routing to controller "Hello::Example" and action "welcome".
+[Mon Jul  8 16:27:53 2013] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul  8 16:27:53 2013] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul  8 16:27:53 2013] [debug] 200 OK (0.015311s, 65.313/s).
+[Mon Jul  8 16:28:52 2013] [debug] do {
+  my $a = bless({
+    children   => [
+                    bless({
+                      name    => "perldocmodule",
+                      parent  => 'fix',
+                      pattern => bless({
+                                   constraints       => {},
+                                   defaults          => { cb => sub { ... }, module => "Mojolicious/Guides" },
+                                   pattern           => "/perldoc/*module",
+                                   placeholder_start => ":",
+                                   quote_end         => ")",
+                                   quote_start       => "(",
+                                   relaxed_start     => "#",
+                                   tree              => [
+                                                          ["slash"],
+                                                          ["text", "perldoc"],
+                                                          ["slash"],
+                                                          ["wildcard", "module"],
+                                                        ],
+                                   wildcard_start    => "*",
+                                 }, "Mojolicious::Routes::Pattern"),
+                    }, "Mojolicious::Routes::Route"),
+                    bless({
+                      name => "",
+                      parent => 'fix',
+                      pattern => bless({
+                        constraints => {},
+                        defaults    => { action => "welcome", controller => "example" },
+                      }, "Mojolicious::Routes::Pattern"),
+                      via => ["GET"],
+                    }, "Mojolicious::Routes::Route"),
+                  ],
+    conditions => { agent => sub { ... }, headers => sub { ... }, host => sub { ... } },
+    hidden     => [
+                    "attr",
+                    "has",
+                    "new",
+                    "tap",
+                    "AUTOLOAD",
+                    "DESTROY",
+                    "app",
+                    "cookie",
+                    "finish",
+                    "flash",
+                    "handler",
+                    "match",
+                    "on",
+                    "param",
+                    "redirect_to",
+                    "render",
+                    "render_exception",
+                    "render_later",
+                    "render_maybe",
+                    "render_not_found",
+                    "render_static",
+                    "rendered",
+                    "req",
+                    "res",
+                    "respond_to",
+                    "send",
+                    "session",
+                    "signed_cookie",
+                    "stash",
+                    "tx",
+                    "url_for",
+                    "write",
+                    "write_chunk",
+                  ],
+    name       => "",
+    namespaces => ["Hello"],
+    pattern    => bless({ constraints => {} }, "Mojolicious::Routes::Pattern"),
+  }, "Mojolicious::Routes");
+  $a->{children}[0]{parent} = $a;
+  $a->{children}[1]{parent} = $a;
+  $a;
+}
+[Mon Jul  8 16:28:52 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:28:56 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:28:56 2013] [debug] GET "/".
+[Mon Jul  8 16:28:56 2013] [debug] Routing to controller "Hello::Example" and action "welcome".
+[Mon Jul  8 16:28:56 2013] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul  8 16:28:56 2013] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul  8 16:28:56 2013] [debug] 200 OK (0.011233s, 89.023/s).
+[Mon Jul  8 16:28:58 2013] [debug] GET "/".
+[Mon Jul  8 16:28:58 2013] [debug] Routing to controller "Hello::Example" and action "welcome".
+[Mon Jul  8 16:28:58 2013] [debug] Rendering cached template "example/welcome.html.ep".
+[Mon Jul  8 16:28:58 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Jul  8 16:28:58 2013] [debug] 200 OK (0.001810s, 552.486/s).
+[Mon Jul  8 16:29:24 2013] [debug] do {
+  my $a = bless({
+    children   => [
+                    bless({
+                      name    => "perldocmodule",
+                      parent  => 'fix',
+                      pattern => bless({
+                                   constraints       => {},
+                                   defaults          => { cb => sub { ... }, module => "Mojolicious/Guides" },
+                                   pattern           => "/perldoc/*module",
+                                   placeholder_start => ":",
+                                   quote_end         => ")",
+                                   quote_start       => "(",
+                                   relaxed_start     => "#",
+                                   tree              => [
+                                                          ["slash"],
+                                                          ["text", "perldoc"],
+                                                          ["slash"],
+                                                          ["wildcard", "module"],
+                                                        ],
+                                   wildcard_start    => "*",
+                                 }, "Mojolicious::Routes::Pattern"),
+                    }, "Mojolicious::Routes::Route"),
+                    bless({
+                      name => "",
+                      parent => 'fix',
+                      pattern => bless({
+                        constraints => {},
+                        defaults    => { action => "welcome", controller => "example" },
+                      }, "Mojolicious::Routes::Pattern"),
+                      via => ["GET"],
+                    }, "Mojolicious::Routes::Route"),
+                  ],
+    conditions => { agent => sub { ... }, headers => sub { ... }, host => sub { ... } },
+    hidden     => [
+                    "attr",
+                    "has",
+                    "new",
+                    "tap",
+                    "AUTOLOAD",
+                    "DESTROY",
+                    "app",
+                    "cookie",
+                    "finish",
+                    "flash",
+                    "handler",
+                    "match",
+                    "on",
+                    "param",
+                    "redirect_to",
+                    "render",
+                    "render_exception",
+                    "render_later",
+                    "render_maybe",
+                    "render_not_found",
+                    "render_static",
+                    "rendered",
+                    "req",
+                    "res",
+                    "respond_to",
+                    "send",
+                    "session",
+                    "signed_cookie",
+                    "stash",
+                    "tx",
+                    "url_for",
+                    "write",
+                    "write_chunk",
+                  ],
+    name       => "",
+    namespaces => ["Hello"],
+    pattern    => bless({ constraints => {} }, "Mojolicious::Routes::Pattern"),
+  }, "Mojolicious::Routes");
+  $a->{children}[0]{parent} = $a;
+  $a->{children}[1]{parent} = $a;
+  $a;
+}
+[Mon Jul  8 16:29:24 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:29:30 2013] [debug] do {
+  my $a = bless({
+    children   => [
+                    bless({
+                      name    => "perldocmodule",
+                      parent  => 'fix',
+                      pattern => bless({
+                                   constraints       => {},
+                                   defaults          => { cb => sub { ... }, module => "Mojolicious/Guides" },
+                                   pattern           => "/perldoc/*module",
+                                   placeholder_start => ":",
+                                   quote_end         => ")",
+                                   quote_start       => "(",
+                                   relaxed_start     => "#",
+                                   tree              => [
+                                                          ["slash"],
+                                                          ["text", "perldoc"],
+                                                          ["slash"],
+                                                          ["wildcard", "module"],
+                                                        ],
+                                   wildcard_start    => "*",
+                                 }, "Mojolicious::Routes::Pattern"),
+                    }, "Mojolicious::Routes::Route"),
+                    bless({
+                      name => "",
+                      parent => 'fix',
+                      pattern => bless({
+                        constraints => {},
+                        defaults    => { action => "welcome", controller => "example" },
+                      }, "Mojolicious::Routes::Pattern"),
+                      via => ["GET"],
+                    }, "Mojolicious::Routes::Route"),
+                  ],
+    conditions => { agent => sub { ... }, headers => sub { ... }, host => sub { ... } },
+    hidden     => [
+                    "attr",
+                    "has",
+                    "new",
+                    "tap",
+                    "AUTOLOAD",
+                    "DESTROY",
+                    "app",
+                    "cookie",
+                    "finish",
+                    "flash",
+                    "handler",
+                    "match",
+                    "on",
+                    "param",
+                    "redirect_to",
+                    "render",
+                    "render_exception",
+                    "render_later",
+                    "render_maybe",
+                    "render_not_found",
+                    "render_static",
+                    "rendered",
+                    "req",
+                    "res",
+                    "respond_to",
+                    "send",
+                    "session",
+                    "signed_cookie",
+                    "stash",
+                    "tx",
+                    "url_for",
+                    "write",
+                    "write_chunk",
+                  ],
+    name       => "",
+    namespaces => ["Hello"],
+    pattern    => bless({ constraints => {} }, "Mojolicious::Routes::Pattern"),
+  }, "Mojolicious::Routes");
+  $a->{children}[0]{parent} = $a;
+  $a->{children}[1]{parent} = $a;
+  $a;
+}
+[Mon Jul  8 16:29:53 2013] [debug] do {
+  my $a = bless({
+    children   => [
+                    bless({
+                      name    => "perldocmodule",
+                      parent  => 'fix',
+                      pattern => bless({
+                                   constraints       => {},
+                                   defaults          => { cb => sub { ... }, module => "Mojolicious/Guides" },
+                                   pattern           => "/perldoc/*module",
+                                   placeholder_start => ":",
+                                   quote_end         => ")",
+                                   quote_start       => "(",
+                                   relaxed_start     => "#",
+                                   tree              => [
+                                                          ["slash"],
+                                                          ["text", "perldoc"],
+                                                          ["slash"],
+                                                          ["wildcard", "module"],
+                                                        ],
+                                   wildcard_start    => "*",
+                                 }, "Mojolicious::Routes::Pattern"),
+                    }, "Mojolicious::Routes::Route"),
+                    bless({
+                      name => "",
+                      parent => 'fix',
+                      pattern => bless({
+                        constraints => {},
+                        defaults    => { action => "welcome", controller => "example" },
+                      }, "Mojolicious::Routes::Pattern"),
+                      via => ["GET"],
+                    }, "Mojolicious::Routes::Route"),
+                  ],
+    conditions => { agent => sub { ... }, headers => sub { ... }, host => sub { ... } },
+    hidden     => [
+                    "attr",
+                    "has",
+                    "new",
+                    "tap",
+                    "AUTOLOAD",
+                    "DESTROY",
+                    "app",
+                    "cookie",
+                    "finish",
+                    "flash",
+                    "handler",
+                    "match",
+                    "on",
+                    "param",
+                    "redirect_to",
+                    "render",
+                    "render_exception",
+                    "render_later",
+                    "render_maybe",
+                    "render_not_found",
+                    "render_static",
+                    "rendered",
+                    "req",
+                    "res",
+                    "respond_to",
+                    "send",
+                    "session",
+                    "signed_cookie",
+                    "stash",
+                    "tx",
+                    "url_for",
+                    "write",
+                    "write_chunk",
+                  ],
+    name       => "",
+    namespaces => ["Hello"],
+    pattern    => bless({ constraints => {} }, "Mojolicious::Routes::Pattern"),
+  }, "Mojolicious::Routes");
+  $a->{children}[0]{parent} = $a;
+  $a->{children}[1]{parent} = $a;
+  $a;
+}
+[Mon Jul  8 16:29:53 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:30:12 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:32:45 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:33:00 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:33:00 2013] [debug] GET "/api/docs/".
+[Mon Jul  8 16:33:00 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:33:00 2013] [debug] 200 OK (0.001355s, 738.007/s).
+[Mon Jul  8 16:40:32 2013] [debug] GET "/api/docs/".
+[Mon Jul  8 16:40:32 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:40:32 2013] [debug] 200 OK (0.000688s, 1453.488/s).
+[Mon Jul  8 16:40:34 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:40:34 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:40:34 2013] [debug] 200 OK (0.000965s, 1036.269/s).
+[Mon Jul  8 16:40:57 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:41:01 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:41:01 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:41:01 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:41:01 2013] [debug] 200 OK (0.001120s, 892.857/s).
+[Mon Jul  8 16:41:03 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:41:03 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:41:03 2013] [debug] 200 OK (0.000451s, 2217.295/s).
+[Mon Jul  8 16:41:03 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:41:03 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:41:03 2013] [debug] 200 OK (0.000433s, 2309.469/s).
+[Mon Jul  8 16:41:04 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:41:04 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:41:04 2013] [debug] 200 OK (0.000449s, 2227.171/s).
+[Mon Jul  8 16:41:05 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:41:05 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:41:05 2013] [debug] 200 OK (0.000443s, 2257.336/s).
+[Mon Jul  8 16:42:18 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:42:18 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:42:18 2013] [debug] 200 OK (0.000434s, 2304.147/s).
+[Mon Jul  8 16:42:20 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:42:20 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:42:20 2013] [debug] 200 OK (0.000474s, 2109.705/s).
+[Mon Jul  8 16:42:20 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:42:20 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:42:20 2013] [debug] 200 OK (0.000236s, 4237.288/s).
+[Mon Jul  8 16:42:21 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:42:21 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:42:21 2013] [debug] 200 OK (0.000426s, 2347.418/s).
+[Mon Jul  8 16:42:22 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:42:22 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:42:22 2013] [debug] 200 OK (0.000426s, 2347.418/s).
+[Mon Jul  8 16:42:22 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:42:22 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:42:22 2013] [debug] 200 OK (0.000235s, 4255.319/s).
+[Mon Jul  8 16:42:22 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:42:22 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:42:22 2013] [debug] 200 OK (0.000447s, 2237.136/s).
+[Mon Jul  8 16:42:36 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:42:39 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:42:39 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:42:39 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:42:39 2013] [error] Can't locate object method "namespaces" via package "Hello" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 18.
+
+[Mon Jul  8 16:42:39 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 16:42:39 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 16:42:39 2013] [debug] Rendering inline template.
+[Mon Jul  8 16:42:39 2013] [debug] Rendering inline template.
+[Mon Jul  8 16:42:39 2013] [debug] 500 Internal Server Error (0.017278s, 57.877/s).
+[Mon Jul  8 16:42:40 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:42:40 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:42:40 2013] [error] Can't locate object method "namespaces" via package "Hello" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 18.
+
+[Mon Jul  8 16:42:40 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 16:42:40 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 16:42:40 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:40 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:40 2013] [debug] 500 Internal Server Error (0.012900s, 77.519/s).
+[Mon Jul  8 16:42:41 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:42:41 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:42:41 2013] [error] Can't locate object method "namespaces" via package "Hello" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 18.
+
+[Mon Jul  8 16:42:41 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 16:42:41 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 16:42:41 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:41 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:41 2013] [debug] 500 Internal Server Error (0.010620s, 94.162/s).
+[Mon Jul  8 16:42:41 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:42:41 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:42:41 2013] [error] Can't locate object method "namespaces" via package "Hello" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 18.
+
+[Mon Jul  8 16:42:41 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 16:42:41 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 16:42:41 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:41 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:41 2013] [debug] 500 Internal Server Error (0.010092s, 99.088/s).
+[Mon Jul  8 16:42:41 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:42:41 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:42:41 2013] [error] Can't locate object method "namespaces" via package "Hello" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 18.
+
+[Mon Jul  8 16:42:41 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 16:42:41 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 16:42:41 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:41 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:41 2013] [debug] 500 Internal Server Error (0.008911s, 112.221/s).
+[Mon Jul  8 16:42:42 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:42:42 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:42:42 2013] [error] Can't locate object method "namespaces" via package "Hello" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 18.
+
+[Mon Jul  8 16:42:42 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 16:42:42 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 16:42:42 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:42 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:42 2013] [debug] 500 Internal Server Error (0.010701s, 93.449/s).
+[Mon Jul  8 16:42:42 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:42:42 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:42:42 2013] [error] Can't locate object method "namespaces" via package "Hello" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 18.
+
+[Mon Jul  8 16:42:42 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 16:42:42 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 16:42:42 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:42 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:42 2013] [debug] 500 Internal Server Error (0.008717s, 114.718/s).
+[Mon Jul  8 16:42:43 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:42:43 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:42:43 2013] [error] Can't locate object method "namespaces" via package "Hello" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 18.
+
+[Mon Jul  8 16:42:43 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 16:42:43 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 16:42:43 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:43 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:43 2013] [debug] 500 Internal Server Error (0.012972s, 77.089/s).
+[Mon Jul  8 16:42:44 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:42:44 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:42:44 2013] [error] Can't locate object method "namespaces" via package "Hello" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 18.
+
+[Mon Jul  8 16:42:44 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 16:42:44 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 16:42:44 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:44 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:44 2013] [debug] 500 Internal Server Error (0.011264s, 88.778/s).
+[Mon Jul  8 16:42:44 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:42:44 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:42:44 2013] [error] Can't locate object method "namespaces" via package "Hello" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 18.
+
+[Mon Jul  8 16:42:44 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 16:42:44 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 16:42:44 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:44 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:42:44 2013] [debug] 500 Internal Server Error (0.008869s, 112.752/s).
+[Mon Jul  8 16:43:27 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:43:37 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:43:37 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:43:37 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:43:37 2013] [error] Can't locate object method "namespaces" via package "Hello" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 18.
+
+[Mon Jul  8 16:43:37 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 16:43:37 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 16:43:37 2013] [debug] Rendering inline template.
+[Mon Jul  8 16:43:37 2013] [debug] Rendering inline template.
+[Mon Jul  8 16:43:37 2013] [debug] 500 Internal Server Error (0.019191s, 52.108/s).
+[Mon Jul  8 16:43:38 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:43:38 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:43:38 2013] [error] Can't locate object method "namespaces" via package "Hello" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 18.
+
+[Mon Jul  8 16:43:38 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 16:43:38 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 16:43:38 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:43:38 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:43:38 2013] [debug] 500 Internal Server Error (0.009441s, 105.921/s).
+[Mon Jul  8 16:43:41 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:43:41 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:43:41 2013] [error] Can't locate object method "namespaces" via package "Hello" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 18.
+
+[Mon Jul  8 16:43:41 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 16:43:41 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 16:43:41 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:43:41 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 16:43:41 2013] [debug] 500 Internal Server Error (0.008202s, 121.921/s).
+[Mon Jul  8 16:43:45 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:43:50 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:44:02 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:44:04 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:44:04 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:04 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:04 2013] [debug] 200 OK (0.000612s, 1633.987/s).
+[Mon Jul  8 16:44:06 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:06 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:06 2013] [debug] 200 OK (0.000486s, 2057.613/s).
+[Mon Jul  8 16:44:07 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:07 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:07 2013] [debug] 200 OK (0.000471s, 2123.142/s).
+[Mon Jul  8 16:44:08 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:08 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:08 2013] [debug] 200 OK (0.000470s, 2127.660/s).
+[Mon Jul  8 16:44:09 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:09 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:09 2013] [debug] 200 OK (0.000477s, 2096.436/s).
+[Mon Jul  8 16:44:09 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:09 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:09 2013] [debug] 200 OK (0.000462s, 2164.502/s).
+[Mon Jul  8 16:44:09 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:09 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:09 2013] [debug] 200 OK (0.000475s, 2105.263/s).
+[Mon Jul  8 16:44:10 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:10 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:10 2013] [debug] 200 OK (0.000478s, 2092.050/s).
+[Mon Jul  8 16:44:10 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:10 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:10 2013] [debug] 200 OK (0.000476s, 2100.840/s).
+[Mon Jul  8 16:44:20 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:20 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:20 2013] [debug] 200 OK (0.000475s, 2105.263/s).
+[Mon Jul  8 16:44:21 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:21 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:21 2013] [debug] 200 OK (0.000460s, 2173.913/s).
+[Mon Jul  8 16:44:21 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:21 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:21 2013] [debug] 200 OK (0.000477s, 2096.436/s).
+[Mon Jul  8 16:44:23 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:44:25 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:44:25 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:25 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:25 2013] [debug] 200 OK (0.001160s, 862.069/s).
+[Mon Jul  8 16:44:26 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:26 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:26 2013] [debug] 200 OK (0.000254s, 3937.008/s).
+[Mon Jul  8 16:44:27 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:27 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:27 2013] [debug] 200 OK (0.000482s, 2074.689/s).
+[Mon Jul  8 16:44:28 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:28 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:28 2013] [debug] 200 OK (0.000462s, 2164.502/s).
+[Mon Jul  8 16:44:28 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:28 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:28 2013] [debug] 200 OK (0.000459s, 2178.649/s).
+[Mon Jul  8 16:44:35 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:35 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:35 2013] [debug] 200 OK (0.000481s, 2079.002/s).
+[Mon Jul  8 16:44:36 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:36 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:36 2013] [debug] 200 OK (0.000467s, 2141.328/s).
+[Mon Jul  8 16:44:36 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:36 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:36 2013] [debug] 200 OK (0.000434s, 2304.147/s).
+[Mon Jul  8 16:44:37 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:37 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:37 2013] [debug] 200 OK (0.000484s, 2066.116/s).
+[Mon Jul  8 16:44:37 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:37 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:37 2013] [debug] 200 OK (0.000279s, 3584.229/s).
+[Mon Jul  8 16:44:37 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:37 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:37 2013] [debug] 200 OK (0.000481s, 2079.002/s).
+[Mon Jul  8 16:44:38 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:38 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:38 2013] [debug] 200 OK (0.000479s, 2087.683/s).
+[Mon Jul  8 16:44:38 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:38 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:38 2013] [debug] 200 OK (0.000480s, 2083.333/s).
+[Mon Jul  8 16:44:38 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:38 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:38 2013] [debug] 200 OK (0.000484s, 2066.116/s).
+[Mon Jul  8 16:44:39 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:39 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:39 2013] [debug] 200 OK (0.000460s, 2173.913/s).
+[Mon Jul  8 16:44:39 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:39 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:39 2013] [debug] 200 OK (0.000462s, 2164.502/s).
+[Mon Jul  8 16:44:40 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:40 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:40 2013] [debug] 200 OK (0.000468s, 2136.752/s).
+[Mon Jul  8 16:44:40 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:40 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:40 2013] [debug] 200 OK (0.000468s, 2136.752/s).
+[Mon Jul  8 16:44:40 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:40 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:40 2013] [debug] 200 OK (0.000481s, 2079.002/s).
+[Mon Jul  8 16:44:41 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:41 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:41 2013] [debug] 200 OK (0.000254s, 3937.008/s).
+[Mon Jul  8 16:44:41 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:41 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:41 2013] [debug] 200 OK (0.000466s, 2145.923/s).
+[Mon Jul  8 16:44:41 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:44:41 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:44:41 2013] [debug] 200 OK (0.000473s, 2114.165/s).
+[Mon Jul  8 16:46:26 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:46:26 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:46:26 2013] [debug] 200 OK (0.000467s, 2141.328/s).
+[Mon Jul  8 16:46:28 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:46:28 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:46:28 2013] [debug] 200 OK (0.000488s, 2049.180/s).
+[Mon Jul  8 16:46:31 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:46:37 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:46:40 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:46:40 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:46:40 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:46:40 2013] [debug] 200 OK (0.001399s, 714.796/s).
+[Mon Jul  8 16:48:18 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:48:22 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:48:22 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:48:22 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:48:22 2013] [debug] 200 OK (0.001428s, 700.280/s).
+[Mon Jul  8 16:48:23 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:48:23 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:48:23 2013] [debug] 200 OK (0.000674s, 1483.680/s).
+[Mon Jul  8 16:48:24 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:48:24 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:48:24 2013] [debug] 200 OK (0.000672s, 1488.095/s).
+[Mon Jul  8 16:48:25 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:48:25 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:48:25 2013] [debug] 200 OK (0.000654s, 1529.052/s).
+[Mon Jul  8 16:48:26 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:48:26 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:48:26 2013] [debug] 200 OK (0.000671s, 1490.313/s).
+[Mon Jul  8 16:48:26 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:48:26 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:48:26 2013] [debug] 200 OK (0.000340s, 2941.176/s).
+[Mon Jul  8 16:48:27 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:48:27 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:48:27 2013] [debug] 200 OK (0.000648s, 1543.210/s).
+[Mon Jul  8 16:48:27 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:48:27 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:48:27 2013] [debug] 200 OK (0.000672s, 1488.095/s).
+[Mon Jul  8 16:48:27 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:48:27 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:48:27 2013] [debug] 200 OK (0.000645s, 1550.388/s).
+[Mon Jul  8 16:48:28 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:48:28 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:48:28 2013] [debug] 200 OK (0.000650s, 1538.462/s).
+[Mon Jul  8 16:48:28 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:48:28 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:48:28 2013] [debug] 200 OK (0.000666s, 1501.502/s).
+[Mon Jul  8 16:48:29 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:48:29 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:48:29 2013] [debug] 200 OK (0.000652s, 1533.742/s).
+[Mon Jul  8 16:48:38 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:48:41 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:48:41 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:48:41 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:48:41 2013] [debug] 200 OK (0.001399s, 714.796/s).
+[Mon Jul  8 16:48:42 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:48:42 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:48:42 2013] [debug] 200 OK (0.000673s, 1485.884/s).
+[Mon Jul  8 16:48:43 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:48:43 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:48:43 2013] [debug] 200 OK (0.000663s, 1508.296/s).
+[Mon Jul  8 16:49:40 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:49:40 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:49:40 2013] [debug] 200 OK (0.000672s, 1488.095/s).
+[Mon Jul  8 16:49:41 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:49:41 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:49:41 2013] [debug] 200 OK (0.000655s, 1526.718/s).
+[Mon Jul  8 16:49:42 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:49:42 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:49:42 2013] [debug] 200 OK (0.000687s, 1455.604/s).
+[Mon Jul  8 16:49:43 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:49:43 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:49:43 2013] [debug] 200 OK (0.000660s, 1515.152/s).
+[Mon Jul  8 16:49:44 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:49:44 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:49:44 2013] [debug] 200 OK (0.000692s, 1445.087/s).
+[Mon Jul  8 16:49:54 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:49:54 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:49:54 2013] [debug] 200 OK (0.000716s, 1396.648/s).
+[Mon Jul  8 16:49:55 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:49:55 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:49:55 2013] [debug] 200 OK (0.000382s, 2617.801/s).
+[Mon Jul  8 16:49:55 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:49:55 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:49:55 2013] [debug] 200 OK (0.000659s, 1517.451/s).
+[Mon Jul  8 16:49:56 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:49:56 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:49:56 2013] [debug] 200 OK (0.000673s, 1485.884/s).
+[Mon Jul  8 16:49:56 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:49:56 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:49:56 2013] [debug] 200 OK (0.000685s, 1459.854/s).
+[Mon Jul  8 16:49:56 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:49:56 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:49:56 2013] [debug] 200 OK (0.000688s, 1453.488/s).
+[Mon Jul  8 16:49:56 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:49:56 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:49:56 2013] [debug] 200 OK (0.000421s, 2375.297/s).
+[Mon Jul  8 16:49:57 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:49:57 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:49:57 2013] [debug] 200 OK (0.000343s, 2915.452/s).
+[Mon Jul  8 16:49:57 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:49:57 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:49:57 2013] [debug] 200 OK (0.000449s, 2227.171/s).
+[Mon Jul  8 16:49:57 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:49:57 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:49:57 2013] [debug] 200 OK (0.000656s, 1524.390/s).
+[Mon Jul  8 16:50:19 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:50:19 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:50:19 2013] [debug] 200 OK (0.000661s, 1512.859/s).
+[Mon Jul  8 16:50:20 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:50:20 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:50:20 2013] [debug] 200 OK (0.000660s, 1515.152/s).
+[Mon Jul  8 16:50:22 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:50:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:50:23 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:50:23 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:50:23 2013] [debug] 200 OK (0.001344s, 744.048/s).
+[Mon Jul  8 16:50:24 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:50:24 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:50:24 2013] [debug] 200 OK (0.000639s, 1564.945/s).
+[Mon Jul  8 16:50:24 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:50:24 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:50:24 2013] [debug] 200 OK (0.000655s, 1526.718/s).
+[Mon Jul  8 16:50:25 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:50:25 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:50:25 2013] [debug] 200 OK (0.000679s, 1472.754/s).
+[Mon Jul  8 16:50:25 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:50:25 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:50:25 2013] [debug] 200 OK (0.000655s, 1526.718/s).
+[Mon Jul  8 16:50:26 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:50:26 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:50:26 2013] [debug] 200 OK (0.000665s, 1503.759/s).
+[Mon Jul  8 16:50:33 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:50:33 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:50:33 2013] [debug] 200 OK (0.000698s, 1432.665/s).
+[Mon Jul  8 16:50:42 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:50:42 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:50:42 2013] [debug] 200 OK (0.000703s, 1422.475/s).
+[Mon Jul  8 16:50:43 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:50:43 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:50:43 2013] [debug] 200 OK (0.000657s, 1522.070/s).
+[Mon Jul  8 16:50:44 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:50:44 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:50:44 2013] [debug] 200 OK (0.000676s, 1479.290/s).
+[Mon Jul  8 16:50:44 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:50:44 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:50:44 2013] [debug] 200 OK (0.000677s, 1477.105/s).
+[Mon Jul  8 16:51:43 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:51:45 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:51:45 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:51:45 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:51:45 2013] [debug] 200 OK (0.001357s, 736.920/s).
+[Mon Jul  8 16:51:46 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:51:46 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:51:46 2013] [debug] 200 OK (0.000678s, 1474.926/s).
+[Mon Jul  8 16:51:51 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:52:18 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:52:18 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:52:18 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:52:18 2013] [debug] 200 OK (0.001303s, 767.460/s).
+[Mon Jul  8 16:52:18 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:52:18 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:52:18 2013] [debug] 200 OK (0.000668s, 1497.006/s).
+[Mon Jul  8 16:52:19 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:52:19 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:52:19 2013] [debug] 200 OK (0.000665s, 1503.759/s).
+[Mon Jul  8 16:52:19 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:52:19 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:52:19 2013] [debug] 200 OK (0.000665s, 1503.759/s).
+[Mon Jul  8 16:52:19 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:52:19 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:52:19 2013] [debug] 200 OK (0.000665s, 1503.759/s).
+[Mon Jul  8 16:52:19 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:52:19 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:52:19 2013] [debug] 200 OK (0.000356s, 2808.989/s).
+[Mon Jul  8 16:52:19 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:52:19 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:52:19 2013] [debug] 200 OK (0.000342s, 2923.977/s).
+[Mon Jul  8 16:52:21 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:52:24 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:52:24 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:52:24 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:52:24 2013] [debug] 200 OK (0.001441s, 693.963/s).
+[Mon Jul  8 16:53:47 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:53:47 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:53:47 2013] [debug] 200 OK (0.000727s, 1375.516/s).
+[Mon Jul  8 16:53:48 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:53:48 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:53:48 2013] [debug] 200 OK (0.000694s, 1440.922/s).
+[Mon Jul  8 16:53:49 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:53:49 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:53:49 2013] [debug] 200 OK (0.000709s, 1410.437/s).
+[Mon Jul  8 16:53:50 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:53:50 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:53:50 2013] [debug] 200 OK (0.000714s, 1400.560/s).
+[Mon Jul  8 16:54:58 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:55:01 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:55:01 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:55:01 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:55:01 2013] [debug] 200 OK (0.001432s, 698.324/s).
+[Mon Jul  8 16:55:16 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:55:16 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:55:16 2013] [debug] 200 OK (0.000383s, 2610.966/s).
+[Mon Jul  8 16:55:17 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:55:17 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:55:17 2013] [debug] 200 OK (0.000699s, 1430.615/s).
+[Mon Jul  8 16:55:17 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:55:17 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:55:17 2013] [debug] 200 OK (0.000705s, 1418.440/s).
+[Mon Jul  8 16:55:18 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:55:18 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:55:18 2013] [debug] 200 OK (0.000705s, 1418.440/s).
+[Mon Jul  8 16:55:18 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:55:18 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:55:18 2013] [debug] 200 OK (0.000688s, 1453.488/s).
+[Mon Jul  8 16:55:18 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:55:18 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:55:18 2013] [debug] 200 OK (0.000696s, 1436.782/s).
+[Mon Jul  8 16:55:18 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:55:18 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:55:18 2013] [debug] 200 OK (0.000717s, 1394.700/s).
+[Mon Jul  8 16:55:26 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:55:34 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:55:34 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:55:34 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:55:34 2013] [debug] 200 OK (0.001394s, 717.360/s).
+[Mon Jul  8 16:55:35 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:55:35 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:55:35 2013] [debug] 200 OK (0.000723s, 1383.126/s).
+[Mon Jul  8 16:55:36 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:55:36 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:55:36 2013] [debug] 200 OK (0.000684s, 1461.988/s).
+[Mon Jul  8 16:55:37 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:55:37 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:55:37 2013] [debug] 200 OK (0.000679s, 1472.754/s).
+[Mon Jul  8 16:56:13 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:56:13 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:56:13 2013] [debug] 200 OK (0.000702s, 1424.501/s).
+[Mon Jul  8 16:56:14 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:56:14 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:56:14 2013] [debug] 200 OK (0.000607s, 1647.446/s).
+[Mon Jul  8 16:56:17 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:56:19 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:56:19 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:56:19 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:56:19 2013] [debug] 200 OK (0.000725s, 1379.310/s).
+[Mon Jul  8 16:56:57 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:57:00 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:57:00 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:00 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:00 2013] [debug] 200 OK (0.001444s, 692.521/s).
+[Mon Jul  8 16:57:01 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:01 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:01 2013] [debug] 200 OK (0.000724s, 1381.215/s).
+[Mon Jul  8 16:57:01 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:01 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:01 2013] [debug] 200 OK (0.000714s, 1400.560/s).
+[Mon Jul  8 16:57:02 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:02 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:02 2013] [debug] 200 OK (0.000712s, 1404.494/s).
+[Mon Jul  8 16:57:02 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:02 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:02 2013] [debug] 200 OK (0.000691s, 1447.178/s).
+[Mon Jul  8 16:57:04 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:04 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:04 2013] [debug] 200 OK (0.000699s, 1430.615/s).
+[Mon Jul  8 16:57:05 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:05 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:05 2013] [debug] 200 OK (0.000697s, 1434.720/s).
+[Mon Jul  8 16:57:06 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:06 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:06 2013] [debug] 200 OK (0.000711s, 1406.470/s).
+[Mon Jul  8 16:57:18 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:57:21 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:57:21 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:21 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:21 2013] [debug] 200 OK (0.000774s, 1291.990/s).
+[Mon Jul  8 16:57:22 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:22 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:22 2013] [debug] 200 OK (0.000707s, 1414.427/s).
+[Mon Jul  8 16:57:22 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:22 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:22 2013] [debug] 200 OK (0.000679s, 1472.754/s).
+[Mon Jul  8 16:57:22 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:22 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:22 2013] [debug] 200 OK (0.000713s, 1402.525/s).
+[Mon Jul  8 16:57:23 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:23 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:23 2013] [debug] 200 OK (0.000728s, 1373.626/s).
+[Mon Jul  8 16:57:23 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:23 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:23 2013] [debug] 200 OK (0.000710s, 1408.451/s).
+[Mon Jul  8 16:57:23 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:23 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:23 2013] [debug] 200 OK (0.000737s, 1356.852/s).
+[Mon Jul  8 16:57:23 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:23 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:23 2013] [debug] 200 OK (0.000708s, 1412.429/s).
+[Mon Jul  8 16:57:23 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:23 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:23 2013] [debug] 200 OK (0.000727s, 1375.516/s).
+[Mon Jul  8 16:57:24 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:24 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:24 2013] [debug] 200 OK (0.000736s, 1358.696/s).
+[Mon Jul  8 16:57:24 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:57:24 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:57:24 2013] [debug] 200 OK (0.000710s, 1408.451/s).
+[Mon Jul  8 16:57:41 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:58:02 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:58:02 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:58:02 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:58:02 2013] [debug] 200 OK (0.001491s, 670.691/s).
+[Mon Jul  8 16:58:03 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:58:03 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:58:03 2013] [debug] 200 OK (0.000763s, 1310.616/s).
+[Mon Jul  8 16:58:04 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:58:04 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:58:04 2013] [debug] 200 OK (0.000698s, 1432.665/s).
+[Mon Jul  8 16:58:06 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:58:06 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:58:06 2013] [debug] 200 OK (0.000688s, 1453.488/s).
+[Mon Jul  8 16:58:10 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:58:12 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:58:12 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:58:12 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:58:12 2013] [debug] 200 OK (0.001389s, 719.942/s).
+[Mon Jul  8 16:58:13 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:58:13 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:58:13 2013] [debug] 200 OK (0.000714s, 1400.560/s).
+[Mon Jul  8 16:58:14 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:58:14 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:58:14 2013] [debug] 200 OK (0.000709s, 1410.437/s).
+[Mon Jul  8 16:58:14 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:58:14 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:58:14 2013] [debug] 200 OK (0.000679s, 1472.754/s).
+[Mon Jul  8 16:58:15 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:58:15 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:58:15 2013] [debug] 200 OK (0.000679s, 1472.754/s).
+[Mon Jul  8 16:58:15 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:58:15 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:58:15 2013] [debug] 200 OK (0.000698s, 1432.665/s).
+[Mon Jul  8 16:59:30 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 16:59:40 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 16:59:40 2013] [debug] GET "/api/docs".
+[Mon Jul  8 16:59:40 2013] [debug] Routing to a callback.
+[Mon Jul  8 16:59:40 2013] [debug] 200 OK (0.000625s, 1600.000/s).
+[Mon Jul  8 17:03:38 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:03:38 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:03:38 2013] [debug] 200 OK (0.000526s, 1901.141/s).
+[Mon Jul  8 17:04:58 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 17:05:01 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 17:05:01 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:05:01 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:05:01 2013] [debug] 200 OK (0.001390s, 719.424/s).
+[Mon Jul  8 17:06:36 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:36 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:36 2013] [debug] 200 OK (0.000639s, 1564.945/s).
+[Mon Jul  8 17:06:38 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:38 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:38 2013] [debug] 200 OK (0.000626s, 1597.444/s).
+[Mon Jul  8 17:06:49 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 17:06:51 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 17:06:51 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:51 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:51 2013] [debug] 200 OK (0.001393s, 717.875/s).
+[Mon Jul  8 17:06:52 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:52 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:52 2013] [debug] 200 OK (0.000673s, 1485.884/s).
+[Mon Jul  8 17:06:53 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:53 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:53 2013] [debug] 200 OK (0.000662s, 1510.574/s).
+[Mon Jul  8 17:06:53 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:53 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:53 2013] [debug] 200 OK (0.000667s, 1499.250/s).
+[Mon Jul  8 17:06:54 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:54 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:54 2013] [debug] 200 OK (0.000667s, 1499.250/s).
+[Mon Jul  8 17:06:55 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:55 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:55 2013] [debug] 200 OK (0.000651s, 1536.098/s).
+[Mon Jul  8 17:06:55 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:55 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:55 2013] [debug] 200 OK (0.000669s, 1494.768/s).
+[Mon Jul  8 17:06:56 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:56 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:56 2013] [debug] 200 OK (0.000662s, 1510.574/s).
+[Mon Jul  8 17:06:56 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:56 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:56 2013] [debug] 200 OK (0.000681s, 1468.429/s).
+[Mon Jul  8 17:06:57 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:57 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:57 2013] [debug] 200 OK (0.000649s, 1540.832/s).
+[Mon Jul  8 17:06:57 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:57 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:57 2013] [debug] 200 OK (0.000686s, 1457.726/s).
+[Mon Jul  8 17:06:57 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:57 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:57 2013] [debug] 200 OK (0.000645s, 1550.388/s).
+[Mon Jul  8 17:06:58 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:58 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:58 2013] [debug] 200 OK (0.000656s, 1524.390/s).
+[Mon Jul  8 17:06:58 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:58 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:58 2013] [debug] 200 OK (0.000674s, 1483.680/s).
+[Mon Jul  8 17:06:59 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:59 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:59 2013] [debug] 200 OK (0.000682s, 1466.276/s).
+[Mon Jul  8 17:06:59 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:06:59 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:06:59 2013] [debug] 200 OK (0.000668s, 1497.006/s).
+[Mon Jul  8 17:07:00 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:07:00 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:07:00 2013] [debug] 200 OK (0.000670s, 1492.537/s).
+[Mon Jul  8 17:07:56 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:07:56 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:07:56 2013] [debug] 200 OK (0.000655s, 1526.718/s).
+[Mon Jul  8 17:07:58 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:07:58 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:07:58 2013] [debug] 200 OK (0.000673s, 1485.884/s).
+[Mon Jul  8 17:08:06 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 17:08:20 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 17:08:20 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:08:20 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:08:20 2013] [debug] 200 OK (0.001397s, 715.820/s).
+[Mon Jul  8 17:08:41 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 17:08:44 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 17:08:44 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:08:44 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:08:44 2013] [debug] 200 OK (0.001445s, 692.042/s).
+[Mon Jul  8 17:08:46 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:08:46 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:08:46 2013] [debug] 200 OK (0.000727s, 1375.516/s).
+[Mon Jul  8 17:08:47 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:08:47 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:08:47 2013] [debug] 200 OK (0.000695s, 1438.849/s).
+[Mon Jul  8 17:08:47 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:08:47 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:08:47 2013] [debug] 200 OK (0.000697s, 1434.720/s).
+[Mon Jul  8 17:08:48 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:08:48 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:08:48 2013] [debug] 200 OK (0.000715s, 1398.601/s).
+[Mon Jul  8 17:08:49 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:08:49 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:08:49 2013] [debug] 200 OK (0.000682s, 1466.276/s).
+[Mon Jul  8 17:08:49 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:08:49 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:08:49 2013] [debug] 200 OK (0.000705s, 1418.440/s).
+[Mon Jul  8 17:08:50 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:08:50 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:08:50 2013] [debug] 200 OK (0.000708s, 1412.429/s).
+[Mon Jul  8 17:08:50 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:08:50 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:08:50 2013] [debug] 200 OK (0.000699s, 1430.615/s).
+[Mon Jul  8 17:09:49 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:09:49 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:09:49 2013] [debug] 200 OK (0.000701s, 1426.534/s).
+[Mon Jul  8 17:09:51 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:09:51 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:09:51 2013] [debug] 200 OK (0.000689s, 1451.379/s).
+[Mon Jul  8 17:09:51 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:09:51 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:09:51 2013] [debug] 200 OK (0.000703s, 1422.475/s).
+[Mon Jul  8 17:09:54 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 17:09:59 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 17:10:01 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 17:10:01 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:10:01 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:10:01 2013] [debug] 200 OK (0.001438s, 695.410/s).
+[Mon Jul  8 17:10:02 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:10:02 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:10:02 2013] [debug] 200 OK (0.000719s, 1390.821/s).
+[Mon Jul  8 17:10:03 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:10:03 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:10:03 2013] [debug] 200 OK (0.000694s, 1440.922/s).
+[Mon Jul  8 17:10:03 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:10:03 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:10:03 2013] [debug] 200 OK (0.000713s, 1402.525/s).
+[Mon Jul  8 17:10:04 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:10:04 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:10:04 2013] [debug] 200 OK (0.000692s, 1445.087/s).
+[Mon Jul  8 17:10:04 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:10:04 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:10:04 2013] [debug] 200 OK (0.000705s, 1418.440/s).
+[Mon Jul  8 17:10:04 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:10:04 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:10:04 2013] [debug] 200 OK (0.000707s, 1414.427/s).
+[Mon Jul  8 17:10:04 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:10:04 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:10:04 2013] [debug] 200 OK (0.000721s, 1386.963/s).
+[Mon Jul  8 17:10:05 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:10:05 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:10:05 2013] [debug] 200 OK (0.000734s, 1362.398/s).
+[Mon Jul  8 17:10:05 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:10:05 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:10:05 2013] [debug] 200 OK (0.000687s, 1455.604/s).
+[Mon Jul  8 17:10:06 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:10:06 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:10:06 2013] [debug] 200 OK (0.000719s, 1390.821/s).
+[Mon Jul  8 17:10:09 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:10:09 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:10:09 2013] [debug] 200 OK (0.000726s, 1377.410/s).
+[Mon Jul  8 17:10:10 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:10:10 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:10:10 2013] [debug] 200 OK (0.000709s, 1410.437/s).
+[Mon Jul  8 17:10:10 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:10:10 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:10:10 2013] [debug] 200 OK (0.000710s, 1408.451/s).
+[Mon Jul  8 17:10:11 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:10:11 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:10:11 2013] [debug] 200 OK (0.000698s, 1432.665/s).
+[Mon Jul  8 17:11:40 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:11:40 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:11:40 2013] [debug] 200 OK (0.000718s, 1392.758/s).
+[Mon Jul  8 17:11:41 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:11:41 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:11:41 2013] [debug] 200 OK (0.000693s, 1443.001/s).
+[Mon Jul  8 17:11:42 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:11:42 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:11:42 2013] [debug] 200 OK (0.000707s, 1414.427/s).
+[Mon Jul  8 17:11:42 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:11:42 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:11:42 2013] [debug] 200 OK (0.000712s, 1404.494/s).
+[Mon Jul  8 17:11:43 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:11:43 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:11:43 2013] [debug] 200 OK (0.000720s, 1388.889/s).
+[Mon Jul  8 17:11:43 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:11:43 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:11:43 2013] [debug] 200 OK (0.000705s, 1418.440/s).
+[Mon Jul  8 17:11:44 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:11:44 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:11:44 2013] [debug] 200 OK (0.000694s, 1440.922/s).
+[Mon Jul  8 17:11:45 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:11:45 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:11:45 2013] [debug] 200 OK (0.000699s, 1430.615/s).
+[Mon Jul  8 17:11:48 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 17:11:50 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 17:11:50 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:11:50 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:11:50 2013] [debug] 200 OK (0.001516s, 659.631/s).
+[Mon Jul  8 17:11:52 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:11:52 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:11:52 2013] [debug] 200 OK (0.000797s, 1254.705/s).
+[Mon Jul  8 17:12:33 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:12:33 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:12:33 2013] [debug] 200 OK (0.000399s, 2506.266/s).
+[Mon Jul  8 17:12:36 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 17:12:44 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 17:12:44 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:12:44 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:12:44 2013] [debug] 200 OK (0.001517s, 659.196/s).
+[Mon Jul  8 17:12:57 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:12:57 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:12:57 2013] [debug] 200 OK (0.000397s, 2518.892/s).
+[Mon Jul  8 17:12:58 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:12:58 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:12:58 2013] [debug] 200 OK (0.000798s, 1253.133/s).
+[Mon Jul  8 17:13:00 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 17:13:02 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 17:13:02 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:13:02 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:13:02 2013] [debug] 200 OK (0.001542s, 648.508/s).
+[Mon Jul  8 17:13:03 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:13:03 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:13:03 2013] [debug] 200 OK (0.000774s, 1291.990/s).
+[Mon Jul  8 17:13:04 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:13:04 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:13:04 2013] [debug] 200 OK (0.000770s, 1298.701/s).
+[Mon Jul  8 17:13:08 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 17:13:14 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 17:13:16 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 17:13:16 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:13:16 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:13:16 2013] [debug] 200 OK (0.000884s, 1131.222/s).
+[Mon Jul  8 17:16:18 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 17:16:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 17:16:23 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:16:23 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:16:23 2013] [debug] 200 OK (0.001622s, 616.523/s).
+[Mon Jul  8 17:16:26 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:16:26 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:16:26 2013] [debug] 200 OK (0.000788s, 1269.036/s).
+[Mon Jul  8 17:16:27 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:16:27 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:16:27 2013] [debug] 200 OK (0.000769s, 1300.390/s).
+[Mon Jul  8 17:16:28 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:16:28 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:16:28 2013] [debug] 200 OK (0.000763s, 1310.616/s).
+[Mon Jul  8 17:16:29 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:16:29 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:16:29 2013] [debug] 200 OK (0.000748s, 1336.898/s).
+[Mon Jul  8 17:16:30 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:16:30 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:16:30 2013] [debug] 200 OK (0.000752s, 1329.787/s).
+[Mon Jul  8 17:16:39 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 17:16:53 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 17:16:53 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:16:53 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:16:53 2013] [debug] 200 OK (0.001559s, 641.437/s).
+[Mon Jul  8 17:17:18 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 17:17:21 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 17:17:21 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:17:21 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:17:21 2013] [debug] 200 OK (0.000782s, 1278.772/s).
+[Mon Jul  8 17:17:23 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:17:23 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:17:23 2013] [debug] 200 OK (0.000784s, 1275.510/s).
+[Mon Jul  8 17:17:24 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:17:24 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:17:24 2013] [debug] 200 OK (0.000751s, 1331.558/s).
+[Mon Jul  8 17:17:24 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:17:24 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:17:24 2013] [debug] 200 OK (0.000777s, 1287.001/s).
+[Mon Jul  8 17:17:25 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:17:25 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:17:25 2013] [debug] 200 OK (0.000776s, 1288.660/s).
+[Mon Jul  8 17:17:25 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:17:25 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:17:25 2013] [debug] 200 OK (0.000777s, 1287.001/s).
+[Mon Jul  8 17:17:26 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:17:26 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:17:26 2013] [debug] 200 OK (0.000770s, 1298.701/s).
+[Mon Jul  8 17:17:26 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:17:26 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:17:26 2013] [debug] 200 OK (0.000775s, 1290.323/s).
+[Mon Jul  8 17:17:26 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:17:26 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:17:26 2013] [debug] 200 OK (0.000430s, 2325.581/s).
+[Mon Jul  8 17:17:27 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:17:27 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:17:27 2013] [debug] 200 OK (0.000777s, 1287.001/s).
+[Mon Jul  8 17:17:28 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:17:28 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:17:28 2013] [debug] 200 OK (0.000778s, 1285.347/s).
+[Mon Jul  8 17:17:29 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:17:29 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:17:29 2013] [debug] 200 OK (0.000752s, 1329.787/s).
+[Mon Jul  8 17:17:30 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:17:30 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:17:30 2013] [debug] 200 OK (0.000766s, 1305.483/s).
+[Mon Jul  8 17:17:30 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:17:30 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:17:30 2013] [debug] 200 OK (0.000790s, 1265.823/s).
+[Mon Jul  8 17:17:31 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:17:31 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:17:31 2013] [debug] 200 OK (0.000795s, 1257.862/s).
+[Mon Jul  8 17:17:31 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:17:31 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:17:31 2013] [debug] 200 OK (0.000753s, 1328.021/s).
+[Mon Jul  8 17:30:44 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:30:44 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:30:44 2013] [debug] 200 OK (0.000791s, 1264.223/s).
+[Mon Jul  8 17:30:45 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:30:45 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:30:45 2013] [debug] 200 OK (0.000398s, 2512.563/s).
+[Mon Jul  8 17:30:49 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 17:30:52 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 17:30:52 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:30:52 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:30:52 2013] [debug] 200 OK (0.001541s, 648.929/s).
+[Mon Jul  8 17:30:53 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:30:53 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:30:53 2013] [debug] 200 OK (0.000795s, 1257.862/s).
+[Mon Jul  8 17:30:54 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:30:54 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:30:54 2013] [debug] 200 OK (0.000733s, 1364.256/s).
+[Mon Jul  8 17:34:22 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:34:22 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:34:22 2013] [debug] 200 OK (0.000755s, 1324.503/s).
+[Mon Jul  8 17:37:20 2013] [debug] GET "/routes".
+[Mon Jul  8 17:37:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 17:37:20 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 17:37:20 2013] [debug] Rendering inline template.
+[Mon Jul  8 17:37:20 2013] [debug] Rendering inline template.
+[Mon Jul  8 17:37:20 2013] [debug] 404 Not Found (0.020600s, 48.544/s).
+[Mon Jul  8 17:44:08 2013] [debug] GET "/api/docs".
+[Mon Jul  8 17:44:08 2013] [debug] Routing to a callback.
+[Mon Jul  8 17:44:08 2013] [debug] 200 OK (0.000803s, 1245.330/s).
+[Mon Jul  8 18:09:02 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:09:10 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:09:10 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:09:10 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:09:10 2013] [error] Can't locate object method "data" via package "Mojolicious::Controller" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 20.
+
+[Mon Jul  8 18:09:10 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 18:09:10 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 18:09:10 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:09:10 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:09:10 2013] [debug] 500 Internal Server Error (0.021470s, 46.577/s).
+[Mon Jul  8 18:09:28 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:09:33 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:09:33 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:09:33 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:09:33 2013] [error] Can't locate object method "data" via package "Mojolicious::Controller" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 26.
+
+[Mon Jul  8 18:09:33 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 18:09:33 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 18:09:33 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:09:33 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:09:33 2013] [debug] 500 Internal Server Error (0.017252s, 57.964/s).
+[Mon Jul  8 18:09:34 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:09:34 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:09:34 2013] [error] Can't locate object method "data" via package "Mojolicious::Controller" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 26.
+
+[Mon Jul  8 18:09:34 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 18:09:34 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 18:09:34 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:09:34 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:09:34 2013] [debug] 500 Internal Server Error (0.013080s, 76.453/s).
+[Mon Jul  8 18:09:36 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:09:36 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:09:36 2013] [error] Can't locate object method "data" via package "Mojolicious::Controller" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 26.
+
+[Mon Jul  8 18:09:36 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 18:09:36 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 18:09:36 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:09:36 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:09:36 2013] [debug] 500 Internal Server Error (0.013166s, 75.953/s).
+[Mon Jul  8 18:09:36 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:09:36 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:09:36 2013] [error] Can't locate object method "data" via package "Mojolicious::Controller" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 26.
+
+[Mon Jul  8 18:09:36 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 18:09:36 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 18:09:36 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:09:36 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:09:36 2013] [debug] 500 Internal Server Error (0.008247s, 121.256/s).
+[Mon Jul  8 18:09:37 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:09:37 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:09:37 2013] [error] Can't locate object method "data" via package "Mojolicious::Controller" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 26.
+
+[Mon Jul  8 18:09:37 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 18:09:37 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 18:09:37 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:09:37 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:09:37 2013] [debug] 500 Internal Server Error (0.013371s, 74.789/s).
+[Mon Jul  8 18:09:38 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:09:38 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:09:38 2013] [error] Can't locate object method "data" via package "Mojolicious::Controller" at /home/a.konovalov/dev/DocsAPI/examples/hello/script/../../../lib/Mojolicious/Plugin/DocsAPI.pm line 26.
+
+[Mon Jul  8 18:09:38 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul  8 18:09:38 2013] [debug] Template "exception.html.ep" not found.
+[Mon Jul  8 18:09:38 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:09:38 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:09:38 2013] [debug] 500 Internal Server Error (0.008044s, 124.316/s).
+[Mon Jul  8 18:11:12 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:11:22 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:11:22 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:11:22 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:11:22 2013] [debug] 200 OK (0.001487s, 672.495/s).
+[Mon Jul  8 18:11:24 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:11:24 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:11:24 2013] [debug] 200 OK (0.000675s, 1481.481/s).
+[Mon Jul  8 18:11:25 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:11:25 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:11:25 2013] [debug] 200 OK (0.000657s, 1522.070/s).
+[Mon Jul  8 18:14:35 2013] [debug] OPTIONS "/api/docs".
+[Mon Jul  8 18:14:35 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:14:35 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:14:35 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:14:35 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:14:35 2013] [debug] 404 Not Found (0.016237s, 61.588/s).
+[Mon Jul  8 18:14:51 2013] [debug] OPTIONS "/".
+[Mon Jul  8 18:14:51 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:14:51 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:14:51 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:14:51 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:14:51 2013] [debug] 404 Not Found (0.008997s, 111.148/s).
+[Mon Jul  8 18:16:04 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:16:04 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:16:04 2013] [debug] 200 OK (0.000683s, 1464.129/s).
+[Mon Jul  8 18:16:08 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:16:11 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:16:11 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:16:11 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:16:11 2013] [debug] 200 OK (0.001592s, 628.141/s).
+[Mon Jul  8 18:17:10 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:17:11 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:17:11 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:17:11 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:17:11 2013] [debug] 200 OK (0.001411s, 708.717/s).
+[Mon Jul  8 18:17:14 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:17:14 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:17:14 2013] [debug] 200 OK (0.000755s, 1324.503/s).
+[Mon Jul  8 18:18:14 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:18:14 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:18:14 2013] [debug] 200 OK (0.000760s, 1315.789/s).
+[Mon Jul  8 18:18:16 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:18:18 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:18:18 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:18:18 2013] [debug] Routing to controller "Hello::Example" and action "welcome".
+[Mon Jul  8 18:18:18 2013] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul  8 18:18:18 2013] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul  8 18:18:18 2013] [debug] 200 OK (0.016924s, 59.088/s).
+[Mon Jul  8 18:18:19 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:18:19 2013] [debug] Routing to controller "Hello::Example" and action "welcome".
+[Mon Jul  8 18:18:19 2013] [debug] Rendering cached template "example/welcome.html.ep".
+[Mon Jul  8 18:18:19 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Jul  8 18:18:19 2013] [debug] 200 OK (0.001773s, 564.016/s).
+[Mon Jul  8 18:18:22 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:18:22 2013] [debug] Routing to controller "Hello::Example" and action "welcome".
+[Mon Jul  8 18:18:22 2013] [debug] Rendering cached template "example/welcome.html.ep".
+[Mon Jul  8 18:18:22 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Jul  8 18:18:22 2013] [debug] 200 OK (0.001114s, 897.666/s).
+[Mon Jul  8 18:18:27 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:18:29 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:18:29 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:18:29 2013] [debug] Routing to controller "Hello::Example" and action "welcome".
+[Mon Jul  8 18:18:29 2013] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul  8 18:18:29 2013] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul  8 18:18:29 2013] [debug] 200 OK (0.018001s, 55.552/s).
+[Mon Jul  8 18:18:30 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:18:30 2013] [debug] Routing to controller "Hello::Example" and action "welcome".
+[Mon Jul  8 18:18:30 2013] [debug] Rendering cached template "example/welcome.html.ep".
+[Mon Jul  8 18:18:30 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Jul  8 18:18:30 2013] [debug] 200 OK (0.001779s, 562.114/s).
+[Mon Jul  8 18:18:31 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:18:31 2013] [debug] Routing to controller "Hello::Example" and action "welcome".
+[Mon Jul  8 18:18:31 2013] [debug] Rendering cached template "example/welcome.html.ep".
+[Mon Jul  8 18:18:31 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Jul  8 18:18:31 2013] [debug] 200 OK (0.001840s, 543.478/s).
+[Mon Jul  8 18:18:31 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:18:31 2013] [debug] Routing to controller "Hello::Example" and action "welcome".
+[Mon Jul  8 18:18:31 2013] [debug] Rendering cached template "example/welcome.html.ep".
+[Mon Jul  8 18:18:31 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Jul  8 18:18:31 2013] [debug] 200 OK (0.001845s, 542.005/s).
+[Mon Jul  8 18:18:36 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:18:39 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:18:39 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:18:39 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:18:39 2013] [debug] 200 OK (0.000781s, 1280.410/s).
+[Mon Jul  8 18:28:53 2013] [debug] GET "/api/docs/welcome".
+[Mon Jul  8 18:28:53 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:28:53 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:28:53 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:28:53 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:28:53 2013] [debug] 404 Not Found (0.013997s, 71.444/s).
+[Mon Jul  8 18:29:00 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:29:03 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:29:03 2013] [debug] GET "/api/docs/welcome".
+[Mon Jul  8 18:29:03 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:29:03 2013] [debug] 200 OK (0.001622s, 616.523/s).
+[Mon Jul  8 18:29:29 2013] [debug] GET "/api/docs/controller".
+[Mon Jul  8 18:29:29 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:29:29 2013] [debug] 200 OK (0.000488s, 2049.180/s).
+[Mon Jul  8 18:36:33 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:36:35 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:36:35 2013] [debug] GET "/api/docs/controller".
+[Mon Jul  8 18:36:35 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:36:35 2013] [debug] 200 OK (0.001590s, 628.931/s).
+[Mon Jul  8 18:36:44 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:36:44 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:36:44 2013] [debug] 200 OK (0.001140s, 877.193/s).
+[Mon Jul  8 18:37:29 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:37:29 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:37:29 2013] [debug] 200 OK (0.000779s, 1283.697/s).
+[Mon Jul  8 18:39:02 2013] [debug] GET "/api/docs".
+[Mon Jul  8 18:39:02 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:39:02 2013] [debug] 200 OK (0.000779s, 1283.697/s).
+[Mon Jul  8 18:39:09 2013] [debug] GET "/docs".
+[Mon Jul  8 18:39:09 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:39:09 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:39:09 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:39:09 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:39:09 2013] [debug] 404 Not Found (0.019808s, 50.485/s).
+[Mon Jul  8 18:39:13 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:39:14 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:39:14 2013] [debug] GET "/docs".
+[Mon Jul  8 18:39:14 2013] [debug] Template "index.html.ep" not found.
+[Mon Jul  8 18:39:14 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:39:14 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:39:14 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:39:14 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:39:14 2013] [debug] 404 Not Found (0.020207s, 49.488/s).
+[Mon Jul  8 18:39:17 2013] [debug] GET "/docs".
+[Mon Jul  8 18:39:17 2013] [debug] Template "index.html.ep" not found.
+[Mon Jul  8 18:39:17 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:39:17 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:39:17 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:39:17 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:39:17 2013] [debug] 404 Not Found (0.006301s, 158.705/s).
+[Mon Jul  8 18:39:51 2013] [debug] GET "/docs".
+[Mon Jul  8 18:39:51 2013] [debug] Template "index.html.ep" not found.
+[Mon Jul  8 18:39:51 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:39:51 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:39:51 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:39:51 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:39:51 2013] [debug] 404 Not Found (0.008992s, 111.210/s).
+[Mon Jul  8 18:39:52 2013] [debug] GET "/docs".
+[Mon Jul  8 18:39:52 2013] [debug] Template "index.html.ep" not found.
+[Mon Jul  8 18:39:52 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:39:52 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:39:52 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:39:52 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:39:52 2013] [debug] 404 Not Found (0.008332s, 120.019/s).
+[Mon Jul  8 18:39:53 2013] [debug] GET "/docs".
+[Mon Jul  8 18:39:53 2013] [debug] Template "index.html.ep" not found.
+[Mon Jul  8 18:39:53 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:39:53 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:39:53 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:39:53 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:39:53 2013] [debug] 404 Not Found (0.008940s, 111.857/s).
+[Mon Jul  8 18:40:07 2013] [debug] GET "/docs".
+[Mon Jul  8 18:40:07 2013] [debug] Template "index.html.ep" not found.
+[Mon Jul  8 18:40:07 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:40:07 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:40:07 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:07 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:07 2013] [debug] 404 Not Found (0.008561s, 116.809/s).
+[Mon Jul  8 18:40:08 2013] [debug] GET "/docs".
+[Mon Jul  8 18:40:08 2013] [debug] Template "index.html.ep" not found.
+[Mon Jul  8 18:40:08 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:40:08 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:40:08 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:08 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:08 2013] [debug] 404 Not Found (0.007484s, 133.618/s).
+[Mon Jul  8 18:40:09 2013] [debug] GET "/docs".
+[Mon Jul  8 18:40:09 2013] [debug] Template "index.html.ep" not found.
+[Mon Jul  8 18:40:09 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:40:09 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:40:09 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:09 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:09 2013] [debug] 404 Not Found (0.009023s, 110.828/s).
+[Mon Jul  8 18:40:10 2013] [debug] GET "/docs".
+[Mon Jul  8 18:40:10 2013] [debug] Template "index.html.ep" not found.
+[Mon Jul  8 18:40:10 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:40:10 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:40:10 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:10 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:10 2013] [debug] 404 Not Found (0.006238s, 160.308/s).
+[Mon Jul  8 18:40:11 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:40:12 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:40:12 2013] [debug] GET "/docs".
+[Mon Jul  8 18:40:12 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:40:12 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:40:12 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:40:12 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:40:12 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:40:12 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:40:12 2013] [debug] 404 Not Found (0.019353s, 51.672/s).
+[Mon Jul  8 18:40:13 2013] [debug] GET "/docs".
+[Mon Jul  8 18:40:13 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:40:13 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:40:13 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:40:13 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:40:13 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:13 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:13 2013] [debug] 404 Not Found (0.006750s, 148.148/s).
+[Mon Jul  8 18:40:14 2013] [debug] GET "/docs".
+[Mon Jul  8 18:40:14 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:40:14 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:40:14 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:40:14 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:40:14 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:14 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:14 2013] [debug] 404 Not Found (0.008601s, 116.266/s).
+[Mon Jul  8 18:40:14 2013] [debug] GET "/docs".
+[Mon Jul  8 18:40:14 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:40:14 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:40:14 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:40:14 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:40:14 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:14 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:14 2013] [debug] 404 Not Found (0.009012s, 110.963/s).
+[Mon Jul  8 18:40:14 2013] [debug] GET "/docs".
+[Mon Jul  8 18:40:14 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:40:14 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:40:14 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:40:14 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:40:14 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:14 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:14 2013] [debug] 404 Not Found (0.005069s, 197.278/s).
+[Mon Jul  8 18:40:15 2013] [debug] GET "/docs".
+[Mon Jul  8 18:40:15 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:40:15 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:40:15 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:40:15 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:40:15 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:15 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:15 2013] [debug] 404 Not Found (0.008280s, 120.773/s).
+[Mon Jul  8 18:40:15 2013] [debug] GET "/docs".
+[Mon Jul  8 18:40:15 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:40:15 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:40:15 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:40:15 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:40:15 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:15 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:15 2013] [debug] 404 Not Found (0.004406s, 226.963/s).
+[Mon Jul  8 18:40:37 2013] [debug] GET "/docs".
+[Mon Jul  8 18:40:37 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:40:37 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:40:37 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:40:37 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:40:37 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:37 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:37 2013] [debug] 404 Not Found (0.006790s, 147.275/s).
+[Mon Jul  8 18:40:39 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:40:41 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:40:41 2013] [debug] GET "/docs".
+[Mon Jul  8 18:40:41 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:40:41 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:40:41 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:40:41 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:40:41 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:40:41 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:40:41 2013] [debug] 404 Not Found (0.015127s, 66.107/s).
+[Mon Jul  8 18:40:44 2013] [debug] GET "/docs".
+[Mon Jul  8 18:40:44 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:40:44 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:40:44 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:40:44 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:40:44 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:44 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:44 2013] [debug] 404 Not Found (0.005928s, 168.691/s).
+[Mon Jul  8 18:40:44 2013] [debug] GET "/docs".
+[Mon Jul  8 18:40:44 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:40:44 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:40:44 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:40:44 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:40:44 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:44 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:44 2013] [debug] 404 Not Found (0.007533s, 132.749/s).
+[Mon Jul  8 18:40:45 2013] [debug] GET "/docs".
+[Mon Jul  8 18:40:45 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:40:45 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:40:45 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:40:45 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:40:45 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:45 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:40:45 2013] [debug] 404 Not Found (0.007506s, 133.227/s).
+[Mon Jul  8 18:41:02 2013] [debug] GET "/docs".
+[Mon Jul  8 18:41:02 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:41:02 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:41:02 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:41:02 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:41:02 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:41:02 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:41:02 2013] [debug] 404 Not Found (0.007858s, 127.259/s).
+[Mon Jul  8 18:41:02 2013] [debug] GET "/docs".
+[Mon Jul  8 18:41:02 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:41:02 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:41:02 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:41:02 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:41:02 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:41:02 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:41:02 2013] [debug] 404 Not Found (0.007459s, 134.066/s).
+[Mon Jul  8 18:41:05 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:41:06 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:41:06 2013] [debug] GET "/docs".
+[Mon Jul  8 18:41:06 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:41:06 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:41:06 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:41:06 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:41:06 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:41:06 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:41:06 2013] [debug] 404 Not Found (0.015224s, 65.686/s).
+[Mon Jul  8 18:41:06 2013] [debug] GET "/docs".
+[Mon Jul  8 18:41:06 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:41:06 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:41:06 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:41:06 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:41:06 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:41:06 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:41:06 2013] [debug] 404 Not Found (0.005934s, 168.520/s).
+[Mon Jul  8 18:41:07 2013] [debug] GET "/docs".
+[Mon Jul  8 18:41:07 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:41:07 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:41:07 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:41:07 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:41:07 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:41:07 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:41:07 2013] [debug] 404 Not Found (0.008985s, 111.297/s).
+[Mon Jul  8 18:41:40 2013] [debug] GET "/docs".
+[Mon Jul  8 18:41:40 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:41:40 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:41:40 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:41:40 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:41:40 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:41:40 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:41:40 2013] [debug] 404 Not Found (0.004090s, 244.499/s).
+[Mon Jul  8 18:41:41 2013] [debug] GET "/docs".
+[Mon Jul  8 18:41:41 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:41:41 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:41:41 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:41:41 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:41:41 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:41:41 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:41:41 2013] [debug] 404 Not Found (0.008969s, 111.495/s).
+[Mon Jul  8 18:41:43 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:41:45 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:41:45 2013] [debug] GET "/docs".
+[Mon Jul  8 18:41:45 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:41:45 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:41:45 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:41:45 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:41:45 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:41:45 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:41:45 2013] [debug] 404 Not Found (0.012143s, 82.352/s).
+[Mon Jul  8 18:41:46 2013] [debug] GET "/docs".
+[Mon Jul  8 18:41:46 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:41:46 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:41:46 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:41:46 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:41:46 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:41:46 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:41:46 2013] [debug] 404 Not Found (0.005697s, 175.531/s).
+[Mon Jul  8 18:41:49 2013] [debug] GET "/docs".
+[Mon Jul  8 18:41:49 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:41:49 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:41:49 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:41:49 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:41:49 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:41:49 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:41:49 2013] [debug] 404 Not Found (0.004100s, 243.902/s).
+[Mon Jul  8 18:41:52 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:41:56 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:41:56 2013] [debug] GET "/docs".
+[Mon Jul  8 18:41:56 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:41:56 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:41:56 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:41:56 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:41:56 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:41:56 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:41:56 2013] [debug] 404 Not Found (0.013367s, 74.811/s).
+[Mon Jul  8 18:42:01 2013] [debug] GET "/docs".
+[Mon Jul  8 18:42:01 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:42:01 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:42:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:42:01 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:42:01 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:42:01 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:42:01 2013] [debug] 404 Not Found (0.008808s, 113.533/s).
+[Mon Jul  8 18:42:02 2013] [debug] GET "/docs".
+[Mon Jul  8 18:42:02 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:42:02 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:42:02 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:42:02 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:42:02 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:42:02 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:42:02 2013] [debug] 404 Not Found (0.009041s, 110.607/s).
+[Mon Jul  8 18:42:04 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:42:06 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:42:06 2013] [debug] GET "/docs".
+[Mon Jul  8 18:42:06 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:42:06 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:42:06 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:42:06 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:42:06 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:42:06 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:42:06 2013] [debug] 404 Not Found (0.018118s, 55.194/s).
+[Mon Jul  8 18:42:09 2013] [debug] GET "/docs".
+[Mon Jul  8 18:42:09 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:42:09 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:42:09 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:42:09 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:42:09 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:42:09 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:42:09 2013] [debug] 404 Not Found (0.009437s, 105.966/s).
+[Mon Jul  8 18:42:17 2013] [debug] GET "/docs".
+[Mon Jul  8 18:42:17 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:42:17 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:42:17 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:42:17 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:42:17 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:42:17 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:42:17 2013] [debug] 404 Not Found (0.006336s, 157.828/s).
+[Mon Jul  8 18:42:18 2013] [debug] GET "/docs".
+[Mon Jul  8 18:42:18 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:42:18 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:42:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:42:18 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:42:18 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:42:18 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:42:18 2013] [debug] 404 Not Found (0.006732s, 148.544/s).
+[Mon Jul  8 18:42:20 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:42:22 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:42:22 2013] [debug] GET "/docs".
+[Mon Jul  8 18:42:22 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:42:22 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:42:22 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:42:22 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:42:22 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:42:22 2013] [debug] Rendering inline template.
+[Mon Jul  8 18:42:22 2013] [debug] 404 Not Found (0.015390s, 64.977/s).
+[Mon Jul  8 18:42:23 2013] [debug] GET "/docs".
+[Mon Jul  8 18:42:23 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:42:23 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:42:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:42:23 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:42:23 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:42:23 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:42:23 2013] [debug] 404 Not Found (0.008864s, 112.816/s).
+[Mon Jul  8 18:42:36 2013] [debug] GET "/docs".
+[Mon Jul  8 18:42:36 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:42:36 2013] [debug] Template "docs.html.ep" not found.
+[Mon Jul  8 18:42:36 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul  8 18:42:36 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Jul  8 18:42:36 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:42:36 2013] [debug] Rendering cached inline template.
+[Mon Jul  8 18:42:36 2013] [debug] 404 Not Found (0.005130s, 194.932/s).
+[Mon Jul  8 18:42:39 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:43:45 2013] [info] Listening at "http://*:3000".
+[Mon Jul  8 18:43:51 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul  8 18:43:51 2013] [debug] GET "/docs".
+[Mon Jul  8 18:43:51 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:43:51 2013] [debug] Rendering template "docs.html.ep".
+[Mon Jul  8 18:43:51 2013] [debug] 200 OK (0.005559s, 179.888/s).
+[Mon Jul  8 18:43:52 2013] [debug] GET "/docs".
+[Mon Jul  8 18:43:52 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:43:52 2013] [debug] Rendering cached template "docs.html.ep".
+[Mon Jul  8 18:43:52 2013] [debug] 200 OK (0.000820s, 1219.512/s).
+[Mon Jul  8 18:43:52 2013] [debug] GET "/docs".
+[Mon Jul  8 18:43:52 2013] [debug] Routing to a callback.
+[Mon Jul  8 18:43:52 2013] [debug] Rendering cached template "docs.html.ep".
+[Mon Jul  8 18:43:52 2013] [debug] 200 OK (0.000823s, 1215.067/s).
