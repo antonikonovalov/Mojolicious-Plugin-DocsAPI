@@ -1841,3 +1841,1263 @@
 [Mon Jul  8 18:43:52 2013] [debug] Routing to a callback.
 [Mon Jul  8 18:43:52 2013] [debug] Rendering cached template "docs.html.ep".
 [Mon Jul  8 18:43:52 2013] [debug] 200 OK (0.000823s, 1215.067/s).
+[Tue Jul  9 13:40:53 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 13:41:16 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 13:41:16 2013] [debug] GET "/".
+[Tue Jul  9 13:41:16 2013] [debug] Routing to controller "Hello::Example" and action "welcome".
+[Tue Jul  9 13:41:16 2013] [debug] Rendering template "example/welcome.html.ep".
+[Tue Jul  9 13:41:16 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Jul  9 13:41:16 2013] [debug] 200 OK (0.011936s, 83.780/s).
+[Tue Jul  9 13:41:21 2013] [debug] GET "/api/docs".
+[Tue Jul  9 13:41:21 2013] [debug] Routing to a callback.
+[Tue Jul  9 13:41:21 2013] [debug] 200 OK (0.001555s, 643.087/s).
+[Tue Jul  9 13:47:03 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 13:47:04 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 13:47:04 2013] [debug] GET "/api/docs".
+[Tue Jul  9 13:47:04 2013] [debug] Routing to a callback.
+[Tue Jul  9 13:47:04 2013] [debug] 200 OK (0.005608s, 178.317/s).
+[Tue Jul  9 13:47:05 2013] [debug] GET "/api/docs".
+[Tue Jul  9 13:47:05 2013] [debug] Routing to a callback.
+[Tue Jul  9 13:47:05 2013] [debug] 200 OK (0.000905s, 1104.972/s).
+[Tue Jul  9 13:47:06 2013] [debug] GET "/api/docs".
+[Tue Jul  9 13:47:06 2013] [debug] Routing to a callback.
+[Tue Jul  9 13:47:06 2013] [debug] 200 OK (0.000883s, 1132.503/s).
+[Tue Jul  9 13:47:07 2013] [debug] GET "/api/docs".
+[Tue Jul  9 13:47:07 2013] [debug] Routing to a callback.
+[Tue Jul  9 13:47:07 2013] [debug] 200 OK (0.000870s, 1149.425/s).
+[Tue Jul  9 13:47:07 2013] [debug] GET "/api/docs".
+[Tue Jul  9 13:47:07 2013] [debug] Routing to a callback.
+[Tue Jul  9 13:47:07 2013] [debug] 200 OK (0.000438s, 2283.105/s).
+[Tue Jul  9 13:47:08 2013] [debug] GET "/api/docs".
+[Tue Jul  9 13:47:08 2013] [debug] Routing to a callback.
+[Tue Jul  9 13:47:08 2013] [debug] 200 OK (0.000862s, 1160.093/s).
+[Tue Jul  9 13:48:56 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 13:48:59 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 13:48:59 2013] [debug] GET "/api/docs".
+[Tue Jul  9 13:48:59 2013] [debug] Routing to a callback.
+[Tue Jul  9 13:48:59 2013] [debug] 200 OK (0.002636s, 379.363/s).
+[Tue Jul  9 14:27:19 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 14:27:30 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 14:27:30 2013] [debug] GET "/api/docs".
+[Tue Jul  9 14:27:30 2013] [debug] Routing to a callback.
+[Tue Jul  9 14:27:30 2013] [debug] 200 OK (0.000833s, 1200.480/s).
+[Tue Jul  9 14:27:30 2013] [debug] GET "/api/lib/jquery.ba-bbq.min.js".
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering inline template.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering inline template.
+[Tue Jul  9 14:27:30 2013] [debug] 404 Not Found (0.013077s, 76.470/s).
+[Tue Jul  9 14:27:30 2013] [debug] GET "/api/lib/jquery.wiggle.min.js".
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] 404 Not Found (0.004551s, 219.732/s).
+[Tue Jul  9 14:27:30 2013] [debug] GET "/api/lib/jquery.slideto.min.js".
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] 404 Not Found (0.004602s, 217.297/s).
+[Tue Jul  9 14:27:30 2013] [debug] GET "/api/lib/jquery-1.8.0.min.js".
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] 404 Not Found (0.004262s, 234.632/s).
+[Tue Jul  9 14:27:30 2013] [debug] GET "/api/css/screen.css".
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] 404 Not Found (0.003963s, 252.334/s).
+[Tue Jul  9 14:27:30 2013] [debug] GET "/api/css/hightlight.default.css".
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] 404 Not Found (0.003650s, 273.973/s).
+[Tue Jul  9 14:27:30 2013] [debug] GET "/api/lib/handlebars-1.0.rc.1.js".
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] 404 Not Found (0.003682s, 271.592/s).
+[Tue Jul  9 14:27:30 2013] [debug] GET "/api/lib/underscore-min.js".
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] 404 Not Found (0.004444s, 225.023/s).
+[Tue Jul  9 14:27:30 2013] [debug] GET "/api/lib/backbone-min.js".
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] 404 Not Found (0.004108s, 243.427/s).
+[Tue Jul  9 14:27:30 2013] [debug] GET "/api/lib/swagger.js".
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] 404 Not Found (0.003714s, 269.251/s).
+[Tue Jul  9 14:27:30 2013] [debug] GET "/api/swagger-ui.js".
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] 404 Not Found (0.006746s, 148.236/s).
+[Tue Jul  9 14:27:30 2013] [debug] GET "/api/lib/highlight.7.3.pack.js".
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] 404 Not Found (0.004693s, 213.083/s).
+[Tue Jul  9 14:27:30 2013] [debug] GET "/api/images/pet_store_api.png".
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] 404 Not Found (0.004804s, 208.160/s).
+[Tue Jul  9 14:27:30 2013] [debug] GET "/api/images/wordnik_api.png".
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:27:30 2013] [debug] 404 Not Found (0.004347s, 230.044/s).
+[Tue Jul  9 14:29:18 2013] [debug] GET "/api/docs".
+[Tue Jul  9 14:29:18 2013] [debug] Routing to a callback.
+[Tue Jul  9 14:29:18 2013] [debug] 200 OK (0.000798s, 1253.133/s).
+[Tue Jul  9 14:29:18 2013] [debug] GET "/lib/jquery.ba-bbq.min.js".
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] 404 Not Found (0.005875s, 170.213/s).
+[Tue Jul  9 14:29:18 2013] [debug] GET "/lib/jquery.wiggle.min.js".
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] 404 Not Found (0.004328s, 231.054/s).
+[Tue Jul  9 14:29:18 2013] [debug] GET "/lib/jquery.slideto.min.js".
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] 404 Not Found (0.004356s, 229.568/s).
+[Tue Jul  9 14:29:18 2013] [debug] GET "/lib/jquery-1.8.0.min.js".
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] 404 Not Found (0.004253s, 235.128/s).
+[Tue Jul  9 14:29:18 2013] [debug] GET "/css/screen.css".
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] 404 Not Found (0.004607s, 217.061/s).
+[Tue Jul  9 14:29:18 2013] [debug] GET "/css/hightlight.default.css".
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] 404 Not Found (0.004329s, 231.000/s).
+[Tue Jul  9 14:29:18 2013] [debug] GET "/lib/handlebars-1.0.rc.1.js".
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] 404 Not Found (0.005318s, 188.041/s).
+[Tue Jul  9 14:29:18 2013] [debug] GET "/lib/underscore-min.js".
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] 404 Not Found (0.004317s, 231.642/s).
+[Tue Jul  9 14:29:18 2013] [debug] GET "/lib/backbone-min.js".
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] 404 Not Found (0.004082s, 244.978/s).
+[Tue Jul  9 14:29:18 2013] [debug] GET "/lib/swagger.js".
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] 404 Not Found (0.003741s, 267.308/s).
+[Tue Jul  9 14:29:18 2013] [debug] GET "/swagger-ui.js".
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] 404 Not Found (0.003768s, 265.393/s).
+[Tue Jul  9 14:29:18 2013] [debug] GET "/lib/highlight.7.3.pack.js".
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] 404 Not Found (0.005348s, 186.986/s).
+[Tue Jul  9 14:29:18 2013] [debug] GET "/api/images/pet_store_api.png".
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] 404 Not Found (0.004814s, 207.727/s).
+[Tue Jul  9 14:29:18 2013] [debug] GET "/api/images/wordnik_api.png".
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:18 2013] [debug] 404 Not Found (0.005177s, 193.162/s).
+[Tue Jul  9 14:29:20 2013] [debug] GET "/api/docs".
+[Tue Jul  9 14:29:20 2013] [debug] Routing to a callback.
+[Tue Jul  9 14:29:20 2013] [debug] 304 Not Modified (0.000753s, 1328.021/s).
+[Tue Jul  9 14:29:20 2013] [debug] GET "/css/hightlight.default.css".
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] 404 Not Found (0.004452s, 224.618/s).
+[Tue Jul  9 14:29:20 2013] [debug] GET "/lib/jquery.ba-bbq.min.js".
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] 404 Not Found (0.004496s, 222.420/s).
+[Tue Jul  9 14:29:20 2013] [debug] GET "/lib/jquery.wiggle.min.js".
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] 404 Not Found (0.004248s, 235.405/s).
+[Tue Jul  9 14:29:20 2013] [debug] GET "/lib/jquery.slideto.min.js".
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] 404 Not Found (0.004267s, 234.357/s).
+[Tue Jul  9 14:29:20 2013] [debug] GET "/lib/jquery-1.8.0.min.js".
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] 404 Not Found (0.004398s, 227.376/s).
+[Tue Jul  9 14:29:20 2013] [debug] GET "/css/screen.css".
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] 404 Not Found (0.004410s, 226.757/s).
+[Tue Jul  9 14:29:20 2013] [debug] GET "/lib/handlebars-1.0.rc.1.js".
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] 404 Not Found (0.004576s, 218.531/s).
+[Tue Jul  9 14:29:20 2013] [debug] GET "/lib/underscore-min.js".
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] 404 Not Found (0.004628s, 216.076/s).
+[Tue Jul  9 14:29:20 2013] [debug] GET "/lib/backbone-min.js".
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] 404 Not Found (0.004522s, 221.141/s).
+[Tue Jul  9 14:29:20 2013] [debug] GET "/lib/swagger.js".
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] 404 Not Found (0.004045s, 247.219/s).
+[Tue Jul  9 14:29:20 2013] [debug] GET "/swagger-ui.js".
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] 404 Not Found (0.003770s, 265.252/s).
+[Tue Jul  9 14:29:20 2013] [debug] GET "/lib/highlight.7.3.pack.js".
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] 404 Not Found (0.004223s, 236.798/s).
+[Tue Jul  9 14:29:20 2013] [debug] GET "/api/images/wordnik_api.png".
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] 404 Not Found (0.004792s, 208.681/s).
+[Tue Jul  9 14:29:20 2013] [debug] GET "/api/images/pet_store_api.png".
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:20 2013] [debug] 404 Not Found (0.004506s, 221.926/s).
+[Tue Jul  9 14:29:23 2013] [debug] GET "/api/docs".
+[Tue Jul  9 14:29:23 2013] [debug] Routing to a callback.
+[Tue Jul  9 14:29:23 2013] [debug] 200 OK (0.000773s, 1293.661/s).
+[Tue Jul  9 14:29:23 2013] [debug] GET "/lib/handlebars-1.0.rc.1.js".
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] 404 Not Found (0.004892s, 204.415/s).
+[Tue Jul  9 14:29:23 2013] [debug] GET "/lib/swagger.js".
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] 404 Not Found (0.004449s, 224.770/s).
+[Tue Jul  9 14:29:23 2013] [debug] GET "/lib/backbone-min.js".
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] 404 Not Found (0.004848s, 206.271/s).
+[Tue Jul  9 14:29:23 2013] [debug] GET "/lib/underscore-min.js".
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] 404 Not Found (0.004404s, 227.066/s).
+[Tue Jul  9 14:29:23 2013] [debug] GET "/css/hightlight.default.css".
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] 404 Not Found (0.004205s, 237.812/s).
+[Tue Jul  9 14:29:23 2013] [debug] GET "/swagger-ui.js".
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] 404 Not Found (0.004988s, 200.481/s).
+[Tue Jul  9 14:29:23 2013] [debug] GET "/lib/jquery-1.8.0.min.js".
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] 404 Not Found (0.005033s, 198.689/s).
+[Tue Jul  9 14:29:23 2013] [debug] GET "/lib/jquery.slideto.min.js".
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] 404 Not Found (0.004584s, 218.150/s).
+[Tue Jul  9 14:29:23 2013] [debug] GET "/lib/jquery.wiggle.min.js".
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] 404 Not Found (0.004676s, 213.858/s).
+[Tue Jul  9 14:29:23 2013] [debug] GET "/lib/jquery.ba-bbq.min.js".
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] 404 Not Found (0.004355s, 229.621/s).
+[Tue Jul  9 14:29:23 2013] [debug] GET "/lib/highlight.7.3.pack.js".
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] 404 Not Found (0.003885s, 257.400/s).
+[Tue Jul  9 14:29:23 2013] [debug] GET "/css/screen.css".
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] 404 Not Found (0.003774s, 264.971/s).
+[Tue Jul  9 14:29:23 2013] [debug] GET "/api/images/pet_store_api.png".
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] 404 Not Found (0.004737s, 211.104/s).
+[Tue Jul  9 14:29:23 2013] [debug] GET "/api/images/wordnik_api.png".
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 14:29:23 2013] [debug] 404 Not Found (0.004417s, 226.398/s).
+[Tue Jul  9 15:02:26 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 15:02:29 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 15:02:29 2013] [debug] GET "/api/docs".
+[Tue Jul  9 15:02:29 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:02:29 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 15:02:30 2013] [debug] 200 OK (0.012869s, 77.706/s).
+[Tue Jul  9 15:02:31 2013] [debug] GET "/api/docs".
+[Tue Jul  9 15:02:31 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:02:31 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 15:02:31 2013] [debug] 200 OK (0.000654s, 1529.052/s).
+[Tue Jul  9 15:02:33 2013] [debug] GET "/api/docs".
+[Tue Jul  9 15:02:33 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:02:33 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 15:02:33 2013] [debug] 200 OK (0.001158s, 863.558/s).
+[Tue Jul  9 15:02:34 2013] [debug] GET "/api/docs".
+[Tue Jul  9 15:02:34 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:02:34 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 15:02:34 2013] [debug] 200 OK (0.001229s, 813.670/s).
+[Tue Jul  9 15:02:35 2013] [debug] GET "/api/docs".
+[Tue Jul  9 15:02:35 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:02:35 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 15:02:35 2013] [debug] 200 OK (0.001205s, 829.876/s).
+[Tue Jul  9 15:02:44 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 15:02:47 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 15:02:47 2013] [debug] GET "/api/docs".
+[Tue Jul  9 15:02:47 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:02:47 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 15:02:47 2013] [debug] 200 OK (0.011822s, 84.588/s).
+[Tue Jul  9 15:03:43 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 15:03:45 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 15:03:45 2013] [debug] GET "/api/docs".
+[Tue Jul  9 15:03:45 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:03:45 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 15:03:45 2013] [debug] 200 OK (0.013021s, 76.799/s).
+[Tue Jul  9 15:03:45 2013] [debug] GET "/api/docs".
+[Tue Jul  9 15:03:45 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:03:45 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 15:03:45 2013] [debug] 200 OK (0.001299s, 769.823/s).
+[Tue Jul  9 15:03:46 2013] [debug] GET "/api/docs".
+[Tue Jul  9 15:03:46 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:03:46 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 15:03:46 2013] [debug] 200 OK (0.001198s, 834.725/s).
+[Tue Jul  9 15:03:47 2013] [debug] GET "/api/docs".
+[Tue Jul  9 15:03:47 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:03:47 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 15:03:47 2013] [debug] 200 OK (0.000776s, 1288.660/s).
+[Tue Jul  9 15:04:02 2013] [debug] GET "/api/docs".
+[Tue Jul  9 15:04:02 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:04:02 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 15:04:02 2013] [debug] 200 OK (0.001148s, 871.080/s).
+[Tue Jul  9 15:04:15 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 15:04:15 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 15:04:15 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 15:04:15 2013] [debug] Rendering inline template.
+[Tue Jul  9 15:04:15 2013] [debug] Rendering inline template.
+[Tue Jul  9 15:04:15 2013] [debug] 404 Not Found (0.011849s, 84.395/s).
+[Tue Jul  9 15:04:22 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 15:04:22 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 15:04:22 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 15:04:22 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 15:04:22 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 15:04:22 2013] [debug] 404 Not Found (0.004597s, 217.533/s).
+[Tue Jul  9 15:04:59 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 15:04:59 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 15:04:59 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 15:04:59 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 15:04:59 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 15:04:59 2013] [debug] 404 Not Found (0.004236s, 236.072/s).
+[Tue Jul  9 15:07:29 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 15:07:29 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:07:29 2013] [debug] 200 OK (0.002156s, 463.822/s).
+[Tue Jul  9 15:07:32 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 15:07:32 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:07:32 2013] [debug] 200 OK (0.000964s, 1037.344/s).
+[Tue Jul  9 15:07:45 2013] [debug] GET "/api/docs".
+[Tue Jul  9 15:07:45 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:07:45 2013] [debug] 200 OK (0.001163s, 859.845/s).
+[Tue Jul  9 15:08:00 2013] [debug] GET "/api/docs".
+[Tue Jul  9 15:08:00 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:08:00 2013] [debug] 200 OK (0.001114s, 897.666/s).
+[Tue Jul  9 15:08:03 2013] [debug] GET "/api/docs".
+[Tue Jul  9 15:08:03 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:08:03 2013] [debug] 200 OK (0.001154s, 866.551/s).
+[Tue Jul  9 15:08:28 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 15:08:28 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 15:08:28 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 15:08:28 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 15:08:28 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 15:08:28 2013] [debug] 404 Not Found (0.004410s, 226.757/s).
+[Tue Jul  9 15:51:33 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 15:51:37 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 15:51:37 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 15:51:37 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:51:37 2013] [debug] 200 OK (0.000956s, 1046.025/s).
+[Tue Jul  9 15:57:13 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 15:57:16 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 15:57:16 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 15:57:16 2013] [debug] Routing to a callback.
+[Tue Jul  9 15:57:16 2013] [debug] 200 OK (0.000877s, 1140.251/s).
+[Tue Jul  9 16:05:46 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:05:49 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:05:49 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:05:49 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:05:49 2013] [debug] 200 OK (0.000789s, 1267.427/s).
+[Tue Jul  9 16:05:53 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:05:53 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:05:53 2013] [debug] 200 OK (0.000739s, 1353.180/s).
+[Tue Jul  9 16:05:53 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:05:53 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:05:53 2013] [debug] 200 OK (0.000729s, 1371.742/s).
+[Tue Jul  9 16:05:54 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:05:54 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:05:54 2013] [debug] 200 OK (0.000431s, 2320.186/s).
+[Tue Jul  9 16:05:54 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:05:54 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:05:54 2013] [debug] 200 OK (0.000721s, 1386.963/s).
+[Tue Jul  9 16:05:54 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:05:54 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:05:54 2013] [debug] 200 OK (0.000723s, 1383.126/s).
+[Tue Jul  9 16:05:55 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:05:55 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:05:55 2013] [debug] 200 OK (0.000759s, 1317.523/s).
+[Tue Jul  9 16:05:55 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:05:55 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:05:55 2013] [debug] 200 OK (0.000559s, 1788.909/s).
+[Tue Jul  9 16:06:19 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:06:20 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:06:20 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:06:20 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:06:20 2013] [debug] 200 OK (0.000825s, 1212.121/s).
+[Tue Jul  9 16:06:22 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:06:22 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:06:22 2013] [debug] 200 OK (0.000639s, 1564.945/s).
+[Tue Jul  9 16:06:23 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:06:23 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:06:23 2013] [debug] 200 OK (0.000671s, 1490.313/s).
+[Tue Jul  9 16:06:23 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:06:23 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:06:23 2013] [debug] 200 OK (0.000719s, 1390.821/s).
+[Tue Jul  9 16:06:24 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:06:24 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:06:24 2013] [debug] 200 OK (0.000762s, 1312.336/s).
+[Tue Jul  9 16:06:24 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:06:24 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:06:24 2013] [debug] 200 OK (0.000740s, 1351.351/s).
+[Tue Jul  9 16:06:25 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:06:25 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:06:25 2013] [debug] 200 OK (0.000460s, 2173.913/s).
+[Tue Jul  9 16:06:25 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:06:25 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:06:25 2013] [debug] 200 OK (0.000572s, 1748.252/s).
+[Tue Jul  9 16:06:26 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:06:26 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:06:26 2013] [debug] 200 OK (0.000763s, 1310.616/s).
+[Tue Jul  9 16:07:22 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:07:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:07:23 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:07:23 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:07:23 2013] [debug] 200 OK (0.001587s, 630.120/s).
+[Tue Jul  9 16:07:25 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:07:25 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:07:25 2013] [debug] 200 OK (0.000413s, 2421.308/s).
+[Tue Jul  9 16:07:53 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:07:55 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:07:55 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:07:55 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:07:55 2013] [debug] 200 OK (0.000846s, 1182.033/s).
+[Tue Jul  9 16:07:56 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:07:56 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:07:56 2013] [debug] 200 OK (0.000398s, 2512.563/s).
+[Tue Jul  9 16:07:57 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:07:57 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:07:57 2013] [debug] 200 OK (0.000727s, 1375.516/s).
+[Tue Jul  9 16:07:57 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:07:57 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:07:57 2013] [debug] 200 OK (0.000702s, 1424.501/s).
+[Tue Jul  9 16:07:57 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:07:57 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:07:57 2013] [debug] 200 OK (0.000752s, 1329.787/s).
+[Tue Jul  9 16:07:58 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:07:58 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:07:58 2013] [debug] 200 OK (0.000508s, 1968.504/s).
+[Tue Jul  9 16:07:58 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:07:58 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:07:58 2013] [debug] 200 OK (0.000398s, 2512.563/s).
+[Tue Jul  9 16:07:58 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:07:58 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:07:58 2013] [debug] 200 OK (0.000722s, 1385.042/s).
+[Tue Jul  9 16:08:12 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:09:02 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:09:02 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:09:02 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:09:02 2013] [debug] 200 OK (0.000827s, 1209.190/s).
+[Tue Jul  9 16:09:03 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:09:03 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:09:03 2013] [debug] 200 OK (0.000648s, 1543.210/s).
+[Tue Jul  9 16:09:03 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:09:03 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:09:03 2013] [debug] 200 OK (0.000549s, 1821.494/s).
+[Tue Jul  9 16:09:04 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:09:04 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:09:04 2013] [debug] 200 OK (0.000735s, 1360.544/s).
+[Tue Jul  9 16:09:04 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:09:04 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:09:04 2013] [debug] 200 OK (0.000732s, 1366.120/s).
+[Tue Jul  9 16:09:07 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:09:56 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:09:56 2013] [debug] GET "/route".
+[Tue Jul  9 16:09:56 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 16:09:56 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 16:09:56 2013] [debug] Rendering inline template.
+[Tue Jul  9 16:09:56 2013] [debug] Rendering inline template.
+[Tue Jul  9 16:09:56 2013] [debug] 404 Not Found (0.014289s, 69.984/s).
+[Tue Jul  9 16:10:07 2013] [debug] GET "/user".
+[Tue Jul  9 16:10:07 2013] [debug] Routing to controller "Hello::Example" and action "welcome".
+[Tue Jul  9 16:10:07 2013] [debug] Rendering template "example/welcome.html.ep".
+[Tue Jul  9 16:10:07 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Jul  9 16:10:07 2013] [debug] 200 OK (0.008751s, 114.273/s).
+[Tue Jul  9 16:10:19 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:10:19 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:10:19 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 16:10:19 2013] [debug] 200 OK (0.005977s, 167.308/s).
+[Tue Jul  9 16:10:19 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:10:19 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:10:19 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 16:10:19 2013] [debug] 200 OK (0.000802s, 1246.883/s).
+[Tue Jul  9 16:10:28 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:10:28 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:10:28 2013] [debug] 200 OK (0.001159s, 862.813/s).
+[Tue Jul  9 16:10:30 2013] [debug] GET "/api/docs.json".
+[Tue Jul  9 16:10:30 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:10:30 2013] [debug] 200 OK (0.000594s, 1683.502/s).
+[Tue Jul  9 16:10:39 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:10:39 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:10:39 2013] [debug] 200 OK (0.000895s, 1117.318/s).
+[Tue Jul  9 16:10:40 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:10:40 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:10:40 2013] [debug] 200 OK (0.000914s, 1094.092/s).
+[Tue Jul  9 16:10:42 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:10:42 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:10:42 2013] [debug] 200 OK (0.000886s, 1128.668/s).
+[Tue Jul  9 16:10:54 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:10:54 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:10:54 2013] [debug] 200 OK (0.000891s, 1122.334/s).
+[Tue Jul  9 16:10:58 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:10:58 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:10:58 2013] [debug] 200 OK (0.000918s, 1089.325/s).
+[Tue Jul  9 16:11:03 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:11:03 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:11:03 2013] [debug] 200 OK (0.000846s, 1182.033/s).
+[Tue Jul  9 16:11:27 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:11:27 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:11:27 2013] [debug] 200 OK (0.000976s, 1024.590/s).
+[Tue Jul  9 16:11:29 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:11:32 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:11:32 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:11:32 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:11:32 2013] [debug] 200 OK (0.001782s, 561.167/s).
+[Tue Jul  9 16:11:34 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:11:34 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:11:34 2013] [debug] 200 OK (0.000899s, 1112.347/s).
+[Tue Jul  9 16:11:35 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:11:35 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:11:35 2013] [debug] 200 OK (0.000887s, 1127.396/s).
+[Tue Jul  9 16:11:35 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:11:35 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:11:35 2013] [debug] 200 OK (0.000872s, 1146.789/s).
+[Tue Jul  9 16:11:36 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:11:36 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:11:36 2013] [debug] 200 OK (0.000895s, 1117.318/s).
+[Tue Jul  9 16:11:37 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:11:37 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:11:37 2013] [debug] 200 OK (0.000874s, 1144.165/s).
+[Tue Jul  9 16:11:38 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:11:38 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:11:38 2013] [debug] 200 OK (0.000886s, 1128.668/s).
+[Tue Jul  9 16:11:39 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:11:39 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:11:39 2013] [debug] 200 OK (0.000866s, 1154.734/s).
+[Tue Jul  9 16:11:50 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:11:52 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:11:52 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:11:52 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:11:52 2013] [debug] 200 OK (0.001866s, 535.906/s).
+[Tue Jul  9 16:12:02 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:12:03 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:12:03 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:12:03 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:12:03 2013] [debug] 200 OK (0.002009s, 497.760/s).
+[Tue Jul  9 16:12:05 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:12:05 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:12:05 2013] [debug] 200 OK (0.000963s, 1038.422/s).
+[Tue Jul  9 16:12:27 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:12:30 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:12:30 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:12:30 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:12:30 2013] [debug] 200 OK (0.003316s, 301.568/s).
+[Tue Jul  9 16:18:00 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:18:00 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:18:00 2013] [debug] 200 OK (0.002287s, 437.254/s).
+[Tue Jul  9 16:18:01 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:18:01 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:18:01 2013] [debug] 200 OK (0.001869s, 535.045/s).
+[Tue Jul  9 16:18:51 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:18:53 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:18:53 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:18:53 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:18:53 2013] [debug] 200 OK (0.003309s, 302.206/s).
+[Tue Jul  9 16:19:37 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:19:38 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:19:38 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:19:38 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:19:38 2013] [debug] 200 OK (0.003174s, 315.060/s).
+[Tue Jul  9 16:19:44 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:19:44 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:19:44 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 16:19:44 2013] [debug] 200 OK (0.019798s, 50.510/s).
+[Tue Jul  9 16:19:44 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:19:44 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:19:44 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 16:19:44 2013] [debug] 200 OK (0.003496s, 286.041/s).
+[Tue Jul  9 16:20:50 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:20:53 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:20:53 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:20:53 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:20:53 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 16:20:53 2013] [debug] 200 OK (0.017748s, 56.344/s).
+[Tue Jul  9 16:20:53 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:20:53 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:20:53 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 16:20:53 2013] [debug] 200 OK (0.002694s, 371.195/s).
+[Tue Jul  9 16:20:55 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:20:55 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:20:55 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 16:20:55 2013] [debug] 200 OK (0.002681s, 372.995/s).
+[Tue Jul  9 16:20:55 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:20:55 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:20:55 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 16:20:55 2013] [debug] 200 OK (0.001769s, 565.291/s).
+[Tue Jul  9 16:20:56 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:20:56 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:20:56 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 16:20:56 2013] [debug] 200 OK (0.002886s, 346.500/s).
+[Tue Jul  9 16:20:56 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:20:56 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:20:56 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 16:20:56 2013] [debug] 200 OK (0.001479s, 676.133/s).
+[Tue Jul  9 16:21:17 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:21:18 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:21:18 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:21:18 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:21:18 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 16:21:18 2013] [debug] 200 OK (0.014279s, 70.033/s).
+[Tue Jul  9 16:21:18 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:21:18 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:21:18 2013] [debug] 200 OK (0.001478s, 676.590/s).
+[Tue Jul  9 16:21:18 2013] [debug] GET "/api/docs/docs/user".
+[Tue Jul  9 16:21:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 16:21:18 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 16:21:18 2013] [debug] Rendering inline template.
+[Tue Jul  9 16:21:18 2013] [debug] Rendering inline template.
+[Tue Jul  9 16:21:18 2013] [debug] 404 Not Found (0.013184s, 75.850/s).
+[Tue Jul  9 16:21:18 2013] [debug] GET "/api/docs/docs/manager".
+[Tue Jul  9 16:21:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 16:21:18 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 16:21:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:21:18 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:21:18 2013] [debug] 404 Not Found (0.004590s, 217.865/s).
+[Tue Jul  9 16:21:19 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:21:19 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:21:19 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 16:21:19 2013] [debug] 200 OK (0.002975s, 336.134/s).
+[Tue Jul  9 16:21:20 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:21:20 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:21:20 2013] [debug] 200 OK (0.001349s, 741.290/s).
+[Tue Jul  9 16:21:20 2013] [debug] GET "/api/docs/docs/user".
+[Tue Jul  9 16:21:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 16:21:20 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 16:21:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:21:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:21:20 2013] [debug] 404 Not Found (0.005203s, 192.197/s).
+[Tue Jul  9 16:21:20 2013] [debug] GET "/api/docs/docs/manager".
+[Tue Jul  9 16:21:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 16:21:20 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 16:21:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:21:20 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:21:20 2013] [debug] 404 Not Found (0.004901s, 204.040/s).
+[Tue Jul  9 16:21:20 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:21:20 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:21:20 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 16:21:20 2013] [debug] 200 OK (0.001514s, 660.502/s).
+[Tue Jul  9 16:21:21 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:21:21 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:21:21 2013] [debug] 200 OK (0.001176s, 850.340/s).
+[Tue Jul  9 16:21:21 2013] [debug] GET "/api/docs/docs/user".
+[Tue Jul  9 16:21:21 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 16:21:21 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 16:21:21 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:21:21 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:21:21 2013] [debug] 404 Not Found (0.004824s, 207.297/s).
+[Tue Jul  9 16:21:21 2013] [debug] GET "/api/docs/docs/manager".
+[Tue Jul  9 16:21:21 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 16:21:21 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 16:21:21 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:21:21 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:21:21 2013] [debug] 404 Not Found (0.004688s, 213.311/s).
+[Tue Jul  9 16:21:48 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 16:21:48 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 16:21:48 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 16:21:48 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:21:48 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:21:48 2013] [debug] 404 Not Found (0.004285s, 233.372/s).
+[Tue Jul  9 16:22:39 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:22:39 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:22:39 2013] [debug] 200 OK (0.001334s, 749.625/s).
+[Tue Jul  9 16:23:24 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:23:39 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:23:39 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:23:39 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:23:39 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 16:23:39 2013] [debug] 200 OK (0.018782s, 53.242/s).
+[Tue Jul  9 16:23:54 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:23:54 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:23:54 2013] [debug] 200 OK (0.002307s, 433.463/s).
+[Tue Jul  9 16:23:54 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 16:23:54 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:23:54 2013] [debug] 200 OK (0.001213s, 824.402/s).
+[Tue Jul  9 16:23:54 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 16:23:54 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:23:54 2013] [debug] 200 OK (0.001019s, 981.354/s).
+[Tue Jul  9 16:24:21 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 16:24:21 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 16:24:21 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 16:24:21 2013] [debug] Rendering inline template.
+[Tue Jul  9 16:24:21 2013] [debug] Rendering inline template.
+[Tue Jul  9 16:24:21 2013] [debug] 404 Not Found (0.011561s, 86.498/s).
+[Tue Jul  9 16:46:43 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:47:03 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:47:03 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:47:03 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:47:03 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 16:47:03 2013] [debug] 200 OK (0.020173s, 49.571/s).
+[Tue Jul  9 16:47:04 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:47:04 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:47:04 2013] [debug] 200 OK (0.001622s, 616.523/s).
+[Tue Jul  9 16:47:04 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 16:47:04 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:47:04 2013] [debug] 200 OK (0.000741s, 1349.528/s).
+[Tue Jul  9 16:47:04 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 16:47:04 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:47:04 2013] [debug] 200 OK (0.000585s, 1709.402/s).
+[Tue Jul  9 16:49:08 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:49:10 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:49:10 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:49:10 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:49:10 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 16:49:10 2013] [debug] 200 OK (0.017864s, 55.979/s).
+[Tue Jul  9 16:49:10 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:49:10 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:49:10 2013] [debug] 200 OK (0.001269s, 788.022/s).
+[Tue Jul  9 16:49:10 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 16:49:10 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:49:10 2013] [debug] 200 OK (0.000742s, 1347.709/s).
+[Tue Jul  9 16:49:10 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 16:49:10 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:49:10 2013] [debug] 200 OK (0.000689s, 1451.379/s).
+[Tue Jul  9 16:49:22 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:49:22 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:49:22 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 16:49:22 2013] [debug] 200 OK (0.001553s, 643.915/s).
+[Tue Jul  9 16:49:23 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:49:23 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:49:23 2013] [debug] 200 OK (0.001269s, 788.022/s).
+[Tue Jul  9 16:49:23 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 16:49:23 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:49:23 2013] [debug] 200 OK (0.000439s, 2277.904/s).
+[Tue Jul  9 16:49:23 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 16:49:23 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:49:23 2013] [debug] 200 OK (0.000356s, 2808.989/s).
+[Tue Jul  9 16:49:24 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:49:24 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:49:24 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 16:49:24 2013] [debug] 200 OK (0.002852s, 350.631/s).
+[Tue Jul  9 16:49:24 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:49:24 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:49:24 2013] [debug] 200 OK (0.002264s, 441.696/s).
+[Tue Jul  9 16:49:24 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 16:49:24 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:49:24 2013] [debug] 200 OK (0.000506s, 1976.285/s).
+[Tue Jul  9 16:49:24 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 16:49:24 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:49:24 2013] [debug] 200 OK (0.000438s, 2283.105/s).
+[Tue Jul  9 16:50:16 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:50:16 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:50:16 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 16:50:16 2013] [debug] 200 OK (0.002805s, 356.506/s).
+[Tue Jul  9 16:50:16 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:50:16 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:50:16 2013] [debug] 200 OK (0.001139s, 877.963/s).
+[Tue Jul  9 16:50:16 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 16:50:16 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:50:16 2013] [debug] 200 OK (0.000460s, 2173.913/s).
+[Tue Jul  9 16:50:16 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 16:50:16 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:50:16 2013] [debug] 200 OK (0.000407s, 2457.002/s).
+[Tue Jul  9 16:51:52 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:52:20 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:52:22 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:52:22 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:52:22 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:52:22 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 16:52:22 2013] [debug] 200 OK (0.013942s, 71.726/s).
+[Tue Jul  9 16:52:22 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:52:22 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:52:22 2013] [debug] 200 OK (0.001466s, 682.128/s).
+[Tue Jul  9 16:52:22 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 16:52:22 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:52:22 2013] [debug] 200 OK (0.001010s, 990.099/s).
+[Tue Jul  9 16:52:22 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 16:52:22 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:52:22 2013] [debug] 200 OK (0.000763s, 1310.616/s).
+[Tue Jul  9 16:52:22 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 16:52:22 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 16:52:22 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 16:52:22 2013] [debug] Rendering inline template.
+[Tue Jul  9 16:52:22 2013] [debug] Rendering inline template.
+[Tue Jul  9 16:52:22 2013] [debug] 404 Not Found (0.012422s, 80.502/s).
+[Tue Jul  9 16:52:48 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 16:52:51 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 16:52:51 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:52:51 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:52:51 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 16:52:51 2013] [debug] 200 OK (0.016732s, 59.766/s).
+[Tue Jul  9 16:52:51 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:52:51 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:52:51 2013] [debug] 200 OK (0.001705s, 586.510/s).
+[Tue Jul  9 16:52:51 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 16:52:51 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:52:51 2013] [debug] 200 OK (0.000861s, 1161.440/s).
+[Tue Jul  9 16:52:51 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 16:52:51 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:52:51 2013] [debug] 200 OK (0.000776s, 1288.660/s).
+[Tue Jul  9 16:52:51 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 16:52:51 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 16:52:51 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 16:52:51 2013] [debug] Rendering inline template.
+[Tue Jul  9 16:52:51 2013] [debug] Rendering inline template.
+[Tue Jul  9 16:52:51 2013] [debug] 404 Not Found (0.012540s, 79.745/s).
+[Tue Jul  9 16:55:21 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 16:55:21 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 16:55:21 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 16:55:21 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:55:21 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:55:21 2013] [debug] 404 Not Found (0.004921s, 203.211/s).
+[Tue Jul  9 16:57:14 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 16:57:14 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 16:57:14 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 16:57:14 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:57:14 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:57:14 2013] [debug] 404 Not Found (0.004599s, 217.439/s).
+[Tue Jul  9 16:57:25 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:57:25 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:57:25 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 16:57:25 2013] [debug] 200 OK (0.002727s, 366.703/s).
+[Tue Jul  9 16:57:26 2013] [debug] GET "/api/docs".
+[Tue Jul  9 16:57:26 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:57:26 2013] [debug] 200 OK (0.001145s, 873.362/s).
+[Tue Jul  9 16:57:26 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 16:57:26 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:57:26 2013] [debug] 200 OK (0.000566s, 1766.784/s).
+[Tue Jul  9 16:57:26 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 16:57:26 2013] [debug] Routing to a callback.
+[Tue Jul  9 16:57:26 2013] [debug] 200 OK (0.000460s, 2173.913/s).
+[Tue Jul  9 16:57:26 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 16:57:26 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 16:57:26 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 16:57:26 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:57:26 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:57:26 2013] [debug] 404 Not Found (0.004777s, 209.336/s).
+[Tue Jul  9 16:58:59 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 16:58:59 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 16:58:59 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 16:58:59 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:58:59 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 16:58:59 2013] [debug] 404 Not Found (0.005604s, 178.444/s).
+[Tue Jul  9 17:01:20 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 17:02:00 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 17:02:02 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 17:02:02 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:02:02 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:02:02 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 17:02:02 2013] [debug] 200 OK (0.014624s, 68.381/s).
+[Tue Jul  9 17:02:02 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:02:02 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:02:02 2013] [debug] 200 OK (0.001690s, 591.716/s).
+[Tue Jul  9 17:02:02 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 17:02:02 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:02:02 2013] [debug] 200 OK (0.000885s, 1129.944/s).
+[Tue Jul  9 17:02:02 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 17:02:02 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:02:02 2013] [debug] 200 OK (0.000968s, 1033.058/s).
+[Tue Jul  9 17:02:02 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 17:02:02 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 17:02:02 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 17:02:02 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:02:02 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:02:02 2013] [debug] 404 Not Found (0.012125s, 82.474/s).
+[Tue Jul  9 17:02:14 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 17:02:16 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 17:02:16 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:02:16 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:02:16 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 17:02:16 2013] [debug] 200 OK (0.013510s, 74.019/s).
+[Tue Jul  9 17:02:16 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:02:16 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:02:16 2013] [debug] 200 OK (0.001961s, 509.944/s).
+[Tue Jul  9 17:02:16 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 17:02:16 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:02:16 2013] [debug] 200 OK (0.000945s, 1058.201/s).
+[Tue Jul  9 17:02:16 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 17:02:16 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:02:16 2013] [debug] 200 OK (0.000820s, 1219.512/s).
+[Tue Jul  9 17:02:16 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 17:02:16 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 17:02:16 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 17:02:16 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:02:16 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:02:16 2013] [debug] 404 Not Found (0.011589s, 86.289/s).
+[Tue Jul  9 17:03:30 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 17:03:32 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 17:03:32 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:03:32 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:03:32 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 17:03:32 2013] [debug] 200 OK (0.015035s, 66.511/s).
+[Tue Jul  9 17:03:33 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:03:33 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:03:33 2013] [debug] 200 OK (0.001725s, 579.710/s).
+[Tue Jul  9 17:03:33 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 17:03:33 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:03:33 2013] [debug] 200 OK (0.000897s, 1114.827/s).
+[Tue Jul  9 17:03:33 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 17:03:33 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:03:33 2013] [debug] 200 OK (0.000761s, 1314.060/s).
+[Tue Jul  9 17:03:33 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 17:03:33 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 17:03:33 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 17:03:33 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:03:33 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:03:33 2013] [debug] 404 Not Found (0.012358s, 80.919/s).
+[Tue Jul  9 17:03:56 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 17:04:05 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 17:04:05 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 17:04:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 17:04:05 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 17:04:05 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:04:05 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:04:05 2013] [debug] 404 Not Found (0.013236s, 75.552/s).
+[Tue Jul  9 17:05:57 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:05:57 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:05:57 2013] [debug] 200 OK (0.001844s, 542.299/s).
+[Tue Jul  9 17:05:58 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:05:58 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:05:58 2013] [debug] 200 OK (0.002248s, 444.840/s).
+[Tue Jul  9 17:05:59 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:05:59 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:05:59 2013] [debug] 200 OK (0.002220s, 450.450/s).
+[Tue Jul  9 17:06:00 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:06:00 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:06:00 2013] [debug] 200 OK (0.002218s, 450.857/s).
+[Tue Jul  9 17:06:00 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:06:00 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:06:00 2013] [debug] 200 OK (0.002198s, 454.959/s).
+[Tue Jul  9 17:06:09 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:06:09 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:06:09 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 17:06:09 2013] [debug] 200 OK (0.009831s, 101.719/s).
+[Tue Jul  9 17:06:09 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:06:09 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:06:09 2013] [debug] 200 OK (0.002100s, 476.190/s).
+[Tue Jul  9 17:06:09 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 17:06:09 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:06:09 2013] [debug] 200 OK (0.000901s, 1109.878/s).
+[Tue Jul  9 17:06:09 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 17:06:09 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:06:09 2013] [debug] 200 OK (0.000854s, 1170.960/s).
+[Tue Jul  9 17:06:09 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 17:06:09 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 17:06:09 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 17:06:09 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 17:06:09 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 17:06:09 2013] [debug] 404 Not Found (0.004341s, 230.362/s).
+[Tue Jul  9 17:06:20 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 17:06:22 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 17:06:22 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:06:22 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:06:22 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 17:06:22 2013] [debug] 200 OK (0.020080s, 49.801/s).
+[Tue Jul  9 17:06:22 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:06:22 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:06:22 2013] [debug] 200 OK (0.001287s, 777.001/s).
+[Tue Jul  9 17:06:22 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 17:06:22 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:06:22 2013] [debug] 200 OK (0.000999s, 1001.001/s).
+[Tue Jul  9 17:06:22 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 17:06:22 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:06:22 2013] [debug] 200 OK (0.000904s, 1106.195/s).
+[Tue Jul  9 17:06:22 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 17:06:22 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 17:06:22 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 17:06:22 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:06:22 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:06:22 2013] [debug] 404 Not Found (0.011855s, 84.353/s).
+[Tue Jul  9 17:08:39 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 17:08:39 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 17:08:39 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 17:08:39 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 17:08:39 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 17:08:39 2013] [debug] 404 Not Found (0.004256s, 234.962/s).
+[Tue Jul  9 17:10:02 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 17:10:05 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 17:10:05 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:10:05 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:10:05 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 17:10:05 2013] [debug] 200 OK (0.013915s, 71.865/s).
+[Tue Jul  9 17:10:05 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:10:05 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:10:05 2013] [debug] 200 OK (0.001190s, 840.336/s).
+[Tue Jul  9 17:10:05 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 17:10:05 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:10:05 2013] [debug] 200 OK (0.000923s, 1083.424/s).
+[Tue Jul  9 17:10:05 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 17:10:05 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:10:05 2013] [debug] 200 OK (0.000691s, 1447.178/s).
+[Tue Jul  9 17:10:05 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 17:10:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 17:10:05 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 17:10:05 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:10:05 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:10:05 2013] [debug] 404 Not Found (0.012030s, 83.126/s).
+[Tue Jul  9 17:10:24 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 17:10:24 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 17:10:24 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 17:10:24 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 17:10:24 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 17:10:24 2013] [debug] 404 Not Found (0.004329s, 231.000/s).
+[Tue Jul  9 17:12:26 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 17:12:26 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 17:12:26 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 17:12:26 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 17:12:26 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 17:12:26 2013] [debug] 404 Not Found (0.004519s, 221.288/s).
+[Tue Jul  9 17:13:48 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 17:13:57 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 17:13:57 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:13:57 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:13:57 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 17:13:57 2013] [debug] 200 OK (0.016738s, 59.744/s).
+[Tue Jul  9 17:14:08 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 17:14:10 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 17:14:10 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:14:10 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:14:10 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 17:14:10 2013] [debug] 200 OK (0.016721s, 59.805/s).
+[Tue Jul  9 17:14:10 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:14:10 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:14:10 2013] [debug] 200 OK (0.002216s, 451.264/s).
+[Tue Jul  9 17:14:10 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 17:14:10 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:14:10 2013] [debug] 200 OK (0.000935s, 1069.519/s).
+[Tue Jul  9 17:14:10 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 17:14:10 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:14:10 2013] [debug] 200 OK (0.000722s, 1385.042/s).
+[Tue Jul  9 17:14:10 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 17:14:10 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 17:14:10 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 17:14:10 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:14:10 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:14:10 2013] [debug] 404 Not Found (0.012199s, 81.974/s).
+[Tue Jul  9 17:16:48 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:16:48 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:16:48 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 17:16:48 2013] [debug] 200 OK (0.001475s, 677.966/s).
+[Tue Jul  9 17:16:48 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:16:48 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:16:48 2013] [debug] 200 OK (0.001443s, 693.001/s).
+[Tue Jul  9 17:16:48 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 17:16:48 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:16:48 2013] [debug] 200 OK (0.000618s, 1618.123/s).
+[Tue Jul  9 17:16:48 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 17:16:48 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:16:48 2013] [debug] 200 OK (0.000810s, 1234.568/s).
+[Tue Jul  9 17:16:48 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 17:16:48 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 17:16:48 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 17:16:48 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 17:16:48 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 17:16:48 2013] [debug] 404 Not Found (0.004303s, 232.396/s).
+[Tue Jul  9 17:17:09 2013] [debug] GET "/user".
+[Tue Jul  9 17:17:09 2013] [debug] Routing to controller "Hello::Example" and action "welcome".
+[Tue Jul  9 17:17:09 2013] [debug] Rendering template "example/welcome.html.ep".
+[Tue Jul  9 17:17:09 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Jul  9 17:17:09 2013] [debug] 200 OK (0.007450s, 134.228/s).
+[Tue Jul  9 17:18:10 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 17:18:10 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 17:18:10 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 17:18:10 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 17:18:10 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 17:18:10 2013] [debug] 404 Not Found (0.004366s, 229.043/s).
+[Tue Jul  9 17:24:47 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 17:24:49 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 17:24:49 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:24:49 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:24:49 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 17:24:49 2013] [debug] 200 OK (0.016687s, 59.927/s).
+[Tue Jul  9 17:25:35 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 17:25:39 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 17:25:39 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:25:39 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:25:39 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 17:25:39 2013] [debug] 200 OK (0.016198s, 61.736/s).
+[Tue Jul  9 17:25:39 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:25:39 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:25:39 2013] [debug] 200 OK (0.001255s, 796.813/s).
+[Tue Jul  9 17:25:39 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 17:25:39 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:25:39 2013] [debug] 200 OK (0.000901s, 1109.878/s).
+[Tue Jul  9 17:25:39 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 17:25:39 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:25:39 2013] [debug] 200 OK (0.000741s, 1349.528/s).
+[Tue Jul  9 17:25:39 2013] [debug] GET "/api/docs/user/:id".
+[Tue Jul  9 17:25:39 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 17:25:39 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 17:25:39 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:25:39 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:25:39 2013] [debug] 404 Not Found (0.012541s, 79.738/s).
+[Tue Jul  9 17:25:41 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:25:41 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:25:41 2013] [debug] Rendering cached template "ui/index.html.ep".
+[Tue Jul  9 17:25:41 2013] [debug] 200 OK (0.002994s, 334.001/s).
+[Tue Jul  9 17:25:41 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:25:41 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:25:41 2013] [debug] 200 OK (0.001894s, 527.983/s).
+[Tue Jul  9 17:25:41 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 17:25:41 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:25:41 2013] [debug] 200 OK (0.000625s, 1600.000/s).
+[Tue Jul  9 17:25:41 2013] [debug] GET "/api/docs/user/:id".
+[Tue Jul  9 17:25:41 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 17:25:41 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 17:25:41 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 17:25:41 2013] [debug] Rendering cached inline template.
+[Tue Jul  9 17:25:41 2013] [debug] 404 Not Found (0.004608s, 217.014/s).
+[Tue Jul  9 17:25:41 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 17:25:41 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:25:41 2013] [debug] 200 OK (0.000596s, 1677.852/s).
+[Tue Jul  9 17:26:15 2013] [info] Listening at "http://*:3000".
+[Tue Jul  9 17:26:18 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Jul  9 17:26:18 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:26:18 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:26:18 2013] [debug] Rendering template "ui/index.html.ep".
+[Tue Jul  9 17:26:18 2013] [debug] 200 OK (0.018784s, 53.237/s).
+[Tue Jul  9 17:26:18 2013] [debug] GET "/api/docs".
+[Tue Jul  9 17:26:18 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:26:18 2013] [debug] 200 OK (0.001244s, 803.859/s).
+[Tue Jul  9 17:26:18 2013] [debug] GET "/api/docs/user".
+[Tue Jul  9 17:26:18 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:26:18 2013] [debug] 200 OK (0.001264s, 791.139/s).
+[Tue Jul  9 17:26:18 2013] [debug] GET "/api/docs/manager".
+[Tue Jul  9 17:26:18 2013] [debug] Routing to a callback.
+[Tue Jul  9 17:26:18 2013] [debug] 200 OK (0.000794s, 1259.446/s).
+[Tue Jul  9 17:26:18 2013] [debug] GET "/api/images/throbber.gif".
+[Tue Jul  9 17:26:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Jul  9 17:26:18 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Jul  9 17:26:18 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:26:18 2013] [debug] Rendering inline template.
+[Tue Jul  9 17:26:18 2013] [debug] 404 Not Found (0.011809s, 84.681/s).
